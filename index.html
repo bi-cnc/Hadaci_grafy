@@ -1125,44 +1125,33 @@
             d3.select("#guess-button").attr("disabled", null).text(`Hádej 1/${MAX_GUESSES}`);
             d3.select("#country-input").attr("disabled", null).property("value", ""); 
             
-            // ❌ TOTO JE ODSTRANĚNO: d3.select("#country-select").attr("disabled", null).property("value", ""); 
-            // ❌ TENTO KÓD PRO NAPLNĚNÍ SELECTU JE NYNÍ ODSTRANĚN, PONECHÁVÁME JEN RESET SELECTU, POKUD JE POTŘEBA Z HTML:
-            /* const sortedCountries = countryNames.slice().sort((a, b) =>
-                a.localeCompare(b, "cs", { sensitivity: "base" })
-            );
-            const select = d3.select("#country-select");
-            select.selectAll("option:not([disabled])").remove();
-            sortedCountries.forEach(country => {
-                select.append("option").attr("value", country).text(country);
-            }); 
-            */
-            
             d3.select("#guess-list").selectAll("*").remove(); 
-
+        
             drawChart();
             
             d3.select("#guess-button").on("click", handleGuess);
             
-        // 🎯 LOGIKA PRO VLASTNÍ NAŠEPTVÁČ (NYNÍ PRO VŠECHNY VELIKOSTI)
+            // 🎯 LOGIKA PRO VLASTNÍ NAŠEPTÁVAČ
             const countryInput = document.getElementById("country-input");
             const suggestionsBox = d3.select("#custom-suggestions");
-            
-            // 1. Odstranění starého list atributu
+        
+            // Odstranění starého datalistu
             countryInput.removeAttribute("list"); 
-
-            // 2. Trvalý posluchač pro psaní (BEZ KONTROLY ŠÍŘKY)
+        
+            // Našeptávač
             countryInput.addEventListener("input", () => {
                 showSuggestions(countryInput.value);
             });
-            
-            // 3. Posluchač pro zavření našeptávače po kliknutí mimo něj
+        
+            // Klik mimo našeptávač
             document.addEventListener("click", function(event) {
                 const wrapper = document.querySelector(".autocomplete-wrapper");
                 if (wrapper && !wrapper.contains(event.target)) {
                     suggestionsBox.style("display", "none");
                 }
             });
-
+        
+            // Enter = hádej
             d3.select("#country-input").on("keydown", function(event) {
                 if (event.key === "Enter") {
                     event.preventDefault(); 
@@ -1172,9 +1161,10 @@
             });
         }
         
-        // Zpřístupníme funkci initializeGame globálně, aby ji vidělo tlačítko "Nová hra"
+        // Zpřístupníme initializeGame globálně pro tlačítko Nová hra
         window.initializeGame = initializeGame;
         
+        // První vykreslení grafu po načtení
         window.addEventListener("load", () => {
             requestAnimationFrame(() => {
                 initializeGame();      // 1. vykreslení
@@ -1183,21 +1173,31 @@
                 }, 200);
             });
         });
-
+        
         // Auto-resize výška iframu
         function sendResize() {
             const height = document.documentElement.scrollHeight;
             parent.postMessage({ type: "youdrawit-resize", height }, "*");
         }
         
-        // po načtení stránky
-        window.addEventListener("load", sendResize);
+        // 🔥 Po načtení stránky pošli VELKOU REZERVU (kvůli E15) + skutečnou výšku později
+        window.addEventListener("load", () => {
+            // 1️⃣ Pošli vysokou výšku, aby E15 iframe neusekl
+            parent.postMessage({
+                type: "youdrawit-resize",
+                height: 1500
+            }, "*");
+        
+            // 2️⃣ Pošli skutečnou výšku (musí být až po vykreslení grafu!)
+            setTimeout(sendResize, 250);
+        });
         
         // po každém resize
         window.addEventListener("resize", sendResize);
         
         // pravidelně, kvůli animacím / výsledkům / guess-listu
         setInterval(sendResize, 400);
+        
 
     })();
 </script>
