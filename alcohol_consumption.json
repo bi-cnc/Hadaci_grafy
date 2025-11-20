@@ -1,6 +1,6 @@
 [
   {
-    "country": "Afghanistan",
+    "country": "Afghánistán",
     "data": [
       {
         "Rok": 2000,
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "country": "Albania",
+    "country": "Albánie",
     "data": [
       {
         "Rok": 2000,
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "country": "Algeria",
+    "country": "Alžírsko",
     "data": [
       {
         "Rok": 2000,
@@ -445,7 +445,7 @@
     ]
   },
   {
-    "country": "Antigua and Barbuda",
+    "country": "Antigua a Barbuda",
     "data": [
       {
         "Rok": 2000,
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "country": "Armenia",
+    "country": "Arménie",
     "data": [
       {
         "Rok": 2000,
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "country": "Australia",
+    "country": "Austrálie",
     "data": [
       {
         "Rok": 2000,
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "country": "Austria",
+    "country": "Rakousko",
     "data": [
       {
         "Rok": 2000,
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "country": "Azerbaijan",
+    "country": "Ázerbájdžán",
     "data": [
       {
         "Rok": 2000,
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "country": "Bahamas",
+    "country": "Bahamy",
     "data": [
       {
         "Rok": 2000,
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "country": "Bahrain",
+    "country": "Bahrajn",
     "data": [
       {
         "Rok": 2000,
@@ -1157,7 +1157,7 @@
     ]
   },
   {
-    "country": "Bangladesh",
+    "country": "Bangladéš",
     "data": [
       {
         "Rok": 2000,
@@ -1335,7 +1335,7 @@
     ]
   },
   {
-    "country": "Belarus",
+    "country": "Bělorusko",
     "data": [
       {
         "Rok": 2000,
@@ -1424,7 +1424,7 @@
     ]
   },
   {
-    "country": "Belgium",
+    "country": "Belgie",
     "data": [
       {
         "Rok": 2000,
@@ -1691,7 +1691,7 @@
     ]
   },
   {
-    "country": "Bhutan",
+    "country": "Bhútán",
     "data": [
       {
         "Rok": 2000,
@@ -1780,7 +1780,7 @@
     ]
   },
   {
-    "country": "Bolivia",
+    "country": "Bolívie",
     "data": [
       {
         "Rok": 2000,
@@ -1869,7 +1869,7 @@
     ]
   },
   {
-    "country": "Bosnia and Herzegovina",
+    "country": "Bosna a Hercegovina",
     "data": [
       {
         "Rok": 2000,
@@ -2047,7 +2047,7 @@
     ]
   },
   {
-    "country": "Brazil",
+    "country": "Brazílie",
     "data": [
       {
         "Rok": 2000,
@@ -2136,7 +2136,7 @@
     ]
   },
   {
-    "country": "Brunei",
+    "country": "Brunej",
     "data": [
       {
         "Rok": 2000,
@@ -2225,7 +2225,7 @@
     ]
   },
   {
-    "country": "Bulgaria",
+    "country": "Bulharsko",
     "data": [
       {
         "Rok": 2000,
@@ -2492,7 +2492,7 @@
     ]
   },
   {
-    "country": "Cambodia",
+    "country": "Kambodža",
     "data": [
       {
         "Rok": 2000,
@@ -2581,7 +2581,7 @@
     ]
   },
   {
-    "country": "Cameroon",
+    "country": "Kamerun",
     "data": [
       {
         "Rok": 2000,
@@ -2670,7 +2670,7 @@
     ]
   },
   {
-    "country": "Canada",
+    "country": "Kanada",
     "data": [
       {
         "Rok": 2000,
@@ -2759,96 +2759,7 @@
     ]
   },
   {
-    "country": "Cape Verde",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 4.57
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 4.57
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 4.67
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 4.81
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 4.84
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 5.1
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 5.4
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 5.41
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 5.29
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 5.29
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 5.63
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 5.81
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 5.58
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 5.48
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 5.52
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 5.82
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 6.11
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 6.25
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 6.27
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 6.27
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 6.01
-      }
-    ]
-  },
-  {
-    "country": "Central African Republic",
+    "country": "Středoafrická republika",
     "data": [
       {
         "Rok": 2000,
@@ -2937,7 +2848,7 @@
     ]
   },
   {
-    "country": "Chad",
+    "country": "Čad",
     "data": [
       {
         "Rok": 2000,
@@ -3115,7 +3026,7 @@
     ]
   },
   {
-    "country": "China",
+    "country": "Čína",
     "data": [
       {
         "Rok": 2000,
@@ -3204,7 +3115,7 @@
     ]
   },
   {
-    "country": "Colombia",
+    "country": "Kolumbie",
     "data": [
       {
         "Rok": 2000,
@@ -3293,7 +3204,7 @@
     ]
   },
   {
-    "country": "Comoros",
+    "country": "Komory",
     "data": [
       {
         "Rok": 2000,
@@ -3382,7 +3293,7 @@
     ]
   },
   {
-    "country": "Congo",
+    "country": "Kongo",
     "data": [
       {
         "Rok": 2000,
@@ -3471,7 +3382,7 @@
     ]
   },
   {
-    "country": "Costa Rica",
+    "country": "Kostarika",
     "data": [
       {
         "Rok": 2000,
@@ -3560,7 +3471,7 @@
     ]
   },
   {
-    "country": "Cote d'Ivoire",
+    "country": "Pobřeží slonoviny",
     "data": [
       {
         "Rok": 2000,
@@ -3649,7 +3560,7 @@
     ]
   },
   {
-    "country": "Croatia",
+    "country": "Chorvatsko",
     "data": [
       {
         "Rok": 2000,
@@ -3738,7 +3649,7 @@
     ]
   },
   {
-    "country": "Cuba",
+    "country": "Kuba",
     "data": [
       {
         "Rok": 2000,
@@ -3827,7 +3738,7 @@
     ]
   },
   {
-    "country": "Cyprus",
+    "country": "Kypr",
     "data": [
       {
         "Rok": 2000,
@@ -3916,7 +3827,7 @@
     ]
   },
   {
-    "country": "Czechia",
+    "country": "Česko",
     "data": [
       {
         "Rok": 2000,
@@ -4005,7 +3916,7 @@
     ]
   },
   {
-    "country": "Democratic Republic of Congo",
+    "country": "Demokratická republika Kongo",
     "data": [
       {
         "Rok": 2000,
@@ -4094,7 +4005,7 @@
     ]
   },
   {
-    "country": "Denmark",
+    "country": "Dánsko",
     "data": [
       {
         "Rok": 2000,
@@ -4183,7 +4094,7 @@
     ]
   },
   {
-    "country": "Djibouti",
+    "country": "Džibutsko",
     "data": [
       {
         "Rok": 2000,
@@ -4272,7 +4183,7 @@
     ]
   },
   {
-    "country": "Dominica",
+    "country": "Dominika",
     "data": [
       {
         "Rok": 2000,
@@ -4361,7 +4272,7 @@
     ]
   },
   {
-    "country": "Dominican Republic",
+    "country": "Dominikánská republika",
     "data": [
       {
         "Rok": 2000,
@@ -4450,185 +4361,7 @@
     ]
   },
   {
-    "country": "East Asia and Pacific (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 3.937563
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 3.9315658
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 3.7583725
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 3.6749763
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 3.7019
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 3.8435347
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 4.0871596
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 4.3300424
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 4.6274967
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 4.987086
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 5.4222054
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 5.8369126
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 6.1130333
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 6.25867
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 6.3292465
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 6.369473
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 6.2801876
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 5.870167
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 5.372667
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 5.3688602
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 4.533471
-      }
-    ]
-  },
-  {
-    "country": "East Timor",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 0.55
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 0.55
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 0.53
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 0.5
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 0.47
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 0.31
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 0.18
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 0.055
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 0.073
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 0.13
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 0.3
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 0.48
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 0.6
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 0.58
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 0.52
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 0.47
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 0.46
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 0.47
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 0.4
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 0.4
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 0.17
-      }
-    ]
-  },
-  {
-    "country": "Ecuador",
+    "country": "Ekvádor",
     "data": [
       {
         "Rok": 2000,
@@ -4806,7 +4539,7 @@
     ]
   },
   {
-    "country": "El Salvador",
+    "country": "Salvador",
     "data": [
       {
         "Rok": 2000,
@@ -4895,7 +4628,7 @@
     ]
   },
   {
-    "country": "Equatorial Guinea",
+    "country": "Rovníková Guinea",
     "data": [
       {
         "Rok": 2000,
@@ -5073,7 +4806,7 @@
     ]
   },
   {
-    "country": "Estonia",
+    "country": "Estonsko",
     "data": [
       {
         "Rok": 2000,
@@ -5162,7 +4895,7 @@
     ]
   },
   {
-    "country": "Eswatini",
+    "country": "Svazijsko",
     "data": [
       {
         "Rok": 2000,
@@ -5251,7 +4984,7 @@
     ]
   },
   {
-    "country": "Ethiopia",
+    "country": "Etiopie",
     "data": [
       {
         "Rok": 2000,
@@ -5340,185 +5073,7 @@
     ]
   },
   {
-    "country": "Europe and Central Asia (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 11.146274
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 11.126412
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 11.108999
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 11.069151
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 11.006819
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 10.961149
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 10.92638
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 10.883298
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 10.689665
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 10.43301
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 10.2377405
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 10.139647
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 10.0334635
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 9.865376
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 9.668133
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 9.505947
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 9.385865
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 9.316305
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 9.262164
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 9.236713
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 8.865894
-      }
-    ]
-  },
-  {
-    "country": "European Union (27)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 12.28096
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 12.278264
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 12.177101
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 12.05641
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 11.92778
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 11.826565
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 11.724018
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 11.649195
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 11.457966
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 11.232778
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 11.071499
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 10.99626
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 10.952815
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 10.896823
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 10.886767
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 10.909602
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 10.952499
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 10.949812
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 10.951055
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 10.950605
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 10.211509
-      }
-    ]
-  },
-  {
-    "country": "Fiji",
+    "country": "Fidži",
     "data": [
       {
         "Rok": 2000,
@@ -5607,7 +5162,7 @@
     ]
   },
   {
-    "country": "Finland",
+    "country": "Finsko",
     "data": [
       {
         "Rok": 2000,
@@ -5696,7 +5251,7 @@
     ]
   },
   {
-    "country": "France",
+    "country": "Francie",
     "data": [
       {
         "Rok": 2000,
@@ -5874,7 +5429,7 @@
     ]
   },
   {
-    "country": "Gambia",
+    "country": "Gambie",
     "data": [
       {
         "Rok": 2000,
@@ -5963,7 +5518,7 @@
     ]
   },
   {
-    "country": "Georgia",
+    "country": "Gruzie",
     "data": [
       {
         "Rok": 2000,
@@ -6052,7 +5607,7 @@
     ]
   },
   {
-    "country": "Germany",
+    "country": "Německo",
     "data": [
       {
         "Rok": 2000,
@@ -6230,7 +5785,7 @@
     ]
   },
   {
-    "country": "Greece",
+    "country": "Řecko",
     "data": [
       {
         "Rok": 2000,
@@ -6853,95 +6408,6 @@
     ]
   },
   {
-    "country": "High-income countries",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 10.658979
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 10.642967
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 10.597024
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 10.551274
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 10.531058
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 10.500677
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 10.467505
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 10.408148
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 10.267764
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 10.086484
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 9.951981
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 9.888452
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 9.823425
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 9.715671
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 9.598747
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 9.517541
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 9.451821
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 9.407533
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 9.378333
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 9.377434
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 9.164684
-      }
-    ]
-  },
-  {
     "country": "Honduras",
     "data": [
       {
@@ -7031,7 +6497,7 @@
     ]
   },
   {
-    "country": "Hungary",
+    "country": "Maďarsko",
     "data": [
       {
         "Rok": 2000,
@@ -7120,7 +6586,7 @@
     ]
   },
   {
-    "country": "Iceland",
+    "country": "Island",
     "data": [
       {
         "Rok": 2000,
@@ -7209,7 +6675,7 @@
     ]
   },
   {
-    "country": "India",
+    "country": "Indie",
     "data": [
       {
         "Rok": 2000,
@@ -7298,7 +6764,7 @@
     ]
   },
   {
-    "country": "Indonesia",
+    "country": "Indonésie",
     "data": [
       {
         "Rok": 2000,
@@ -7387,7 +6853,7 @@
     ]
   },
   {
-    "country": "Iran",
+    "country": "Írán",
     "data": [
       {
         "Rok": 2000,
@@ -7476,7 +6942,7 @@
     ]
   },
   {
-    "country": "Iraq",
+    "country": "Irák",
     "data": [
       {
         "Rok": 2000,
@@ -7565,7 +7031,7 @@
     ]
   },
   {
-    "country": "Ireland",
+    "country": "Irsko",
     "data": [
       {
         "Rok": 2000,
@@ -7654,7 +7120,7 @@
     ]
   },
   {
-    "country": "Israel",
+    "country": "Izrael",
     "data": [
       {
         "Rok": 2000,
@@ -7743,7 +7209,7 @@
     ]
   },
   {
-    "country": "Italy",
+    "country": "Itálie",
     "data": [
       {
         "Rok": 2000,
@@ -7832,7 +7298,7 @@
     ]
   },
   {
-    "country": "Jamaica",
+    "country": "Jamajka",
     "data": [
       {
         "Rok": 2000,
@@ -7921,7 +7387,7 @@
     ]
   },
   {
-    "country": "Japan",
+    "country": "Japonsko",
     "data": [
       {
         "Rok": 2000,
@@ -8010,7 +7476,7 @@
     ]
   },
   {
-    "country": "Jordan",
+    "country": "Jordánsko",
     "data": [
       {
         "Rok": 2000,
@@ -8099,7 +7565,7 @@
     ]
   },
   {
-    "country": "Kazakhstan",
+    "country": "Kazachstán",
     "data": [
       {
         "Rok": 2000,
@@ -8188,7 +7654,7 @@
     ]
   },
   {
-    "country": "Kenya",
+    "country": "Keňa",
     "data": [
       {
         "Rok": 2000,
@@ -8366,7 +7832,7 @@
     ]
   },
   {
-    "country": "Kuwait",
+    "country": "Kuvajt",
     "data": [
       {
         "Rok": 2000,
@@ -8455,7 +7921,7 @@
     ]
   },
   {
-    "country": "Kyrgyzstan",
+    "country": "Kyrgyzstán",
     "data": [
       {
         "Rok": 2000,
@@ -8633,96 +8099,7 @@
     ]
   },
   {
-    "country": "Latin America and Caribbean (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 6.830226
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 6.830069
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 6.6821513
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 6.590186
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 6.6079764
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 6.6741714
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 6.722741
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 6.739383
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 6.7330627
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 6.7414775
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 6.7332177
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 6.7468214
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 6.6869264
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 6.643735
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 6.582517
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 6.4964533
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 6.390843
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 6.2517257
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 6.1904516
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 6.1916995
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 5.823282
-      }
-    ]
-  },
-  {
-    "country": "Latvia",
+    "country": "Lotyšsko",
     "data": [
       {
         "Rok": 2000,
@@ -8811,7 +8188,7 @@
     ]
   },
   {
-    "country": "Lebanon",
+    "country": "Libanon",
     "data": [
       {
         "Rok": 2000,
@@ -8989,7 +8366,7 @@
     ]
   },
   {
-    "country": "Liberia",
+    "country": "Libérie",
     "data": [
       {
         "Rok": 2000,
@@ -9078,7 +8455,7 @@
     ]
   },
   {
-    "country": "Libya",
+    "country": "Libye",
     "data": [
       {
         "Rok": 2000,
@@ -9167,7 +8544,7 @@
     ]
   },
   {
-    "country": "Lithuania",
+    "country": "Litva",
     "data": [
       {
         "Rok": 2000,
@@ -9256,185 +8633,7 @@
     ]
   },
   {
-    "country": "Low-income countries",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 3.9478707
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 3.9521203
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 3.940728
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 3.957972
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 3.6985302
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 3.4566805
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 3.1856804
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 3.1333072
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 3.0950644
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 3.0162804
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 2.9816554
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 2.8996923
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 2.8748286
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 2.9002645
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 2.9247673
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 2.9225826
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 2.8404262
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 2.7906501
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 2.7542653
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 2.75493
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 2.7055783
-      }
-    ]
-  },
-  {
-    "country": "Lower-middle-income countries",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 2.4057477
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 2.406749
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 2.4805653
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 2.5543683
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 2.627884
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 2.7252083
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 2.867611
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 3.0596523
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 3.3740816
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 3.630306
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 3.8832743
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 4.006955
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 4.104574
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 4.1312747
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 4.128736
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 4.1087275
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 4.0700307
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 4.072441
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 4.0997534
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 4.1008387
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 3.5364945
-      }
-    ]
-  },
-  {
-    "country": "Luxembourg",
+    "country": "Lucembursko",
     "data": [
       {
         "Rok": 2000,
@@ -9523,7 +8722,7 @@
     ]
   },
   {
-    "country": "Madagascar",
+    "country": "Madagaskar",
     "data": [
       {
         "Rok": 2000,
@@ -9701,7 +8900,7 @@
     ]
   },
   {
-    "country": "Malaysia",
+    "country": "Malajsie",
     "data": [
       {
         "Rok": 2000,
@@ -9790,7 +8989,7 @@
     ]
   },
   {
-    "country": "Maldives",
+    "country": "Maledivy",
     "data": [
       {
         "Rok": 2000,
@@ -10057,7 +9256,7 @@
     ]
   },
   {
-    "country": "Mauritania",
+    "country": "Mauritánie",
     "data": [
       {
         "Rok": 2000,
@@ -10146,7 +9345,7 @@
     ]
   },
   {
-    "country": "Mauritius",
+    "country": "Mauricius",
     "data": [
       {
         "Rok": 2000,
@@ -10235,7 +9434,7 @@
     ]
   },
   {
-    "country": "Mexico",
+    "country": "Mexiko",
     "data": [
       {
         "Rok": 2000,
@@ -10324,185 +9523,7 @@
     ]
   },
   {
-    "country": "Micronesia (country)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 3.39
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 3.39
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 3.74
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 3.42
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 3.07
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 2.51
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 2.35
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 2.37
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 2.5
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 2.54
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 2.5
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 2.83
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 2.77
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 2.62
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 2.1
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 2.09
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 2.13
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 2.13
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 2.12
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 2.12
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 2.02
-      }
-    ]
-  },
-  {
-    "country": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 0.28017592
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 0.27947938
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 0.2761057
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 0.27887657
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 0.28921226
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 0.29690903
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 0.3039732
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 0.31320837
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 0.3219843
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 0.38547504
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 0.4659771
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 0.5041927
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 0.48465058
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 0.39288145
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 0.3461204
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 0.35216466
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 0.403843
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 0.42379323
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 0.38632438
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 0.38420963
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 0.32139364
-      }
-    ]
-  },
-  {
-    "country": "Moldova",
+    "country": "Moldavsko",
     "data": [
       {
         "Rok": 2000,
@@ -10591,7 +9612,7 @@
     ]
   },
   {
-    "country": "Mongolia",
+    "country": "Mongolsko",
     "data": [
       {
         "Rok": 2000,
@@ -10680,7 +9701,7 @@
     ]
   },
   {
-    "country": "Montenegro",
+    "country": "Černá Hora",
     "data": [
       {
         "Rok": 2010,
@@ -10697,7 +9718,7 @@
     ]
   },
   {
-    "country": "Morocco",
+    "country": "Maroko",
     "data": [
       {
         "Rok": 2000,
@@ -10786,7 +9807,7 @@
     ]
   },
   {
-    "country": "Mozambique",
+    "country": "Mosambik",
     "data": [
       {
         "Rok": 2000,
@@ -10964,7 +9985,7 @@
     ]
   },
   {
-    "country": "Namibia",
+    "country": "Namibie",
     "data": [
       {
         "Rok": 2000,
@@ -11142,7 +10163,7 @@
     ]
   },
   {
-    "country": "Nepal",
+    "country": "Nepál",
     "data": [
       {
         "Rok": 2000,
@@ -11231,7 +10252,7 @@
     ]
   },
   {
-    "country": "Netherlands",
+    "country": "Nizozemsko",
     "data": [
       {
         "Rok": 2000,
@@ -11320,7 +10341,7 @@
     ]
   },
   {
-    "country": "New Zealand",
+    "country": "Nový Zéland",
     "data": [
       {
         "Rok": 2000,
@@ -11409,7 +10430,7 @@
     ]
   },
   {
-    "country": "Nicaragua",
+    "country": "Nikaragua",
     "data": [
       {
         "Rok": 2000,
@@ -11587,7 +10608,7 @@
     ]
   },
   {
-    "country": "Nigeria",
+    "country": "Nigérie",
     "data": [
       {
         "Rok": 2000,
@@ -11676,96 +10697,7 @@
     ]
   },
   {
-    "country": "North America (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 9.083091
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 9.08318
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 9.144286
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 9.203333
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 9.276413
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 9.345586
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 9.428858
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 9.497071
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 9.515372
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 9.457884
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 9.429178
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 9.470116
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 9.534873
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 9.556759
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 9.519586
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 9.534353
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 9.552368
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 9.591485
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 9.60446
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 9.604722
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 9.898943
-      }
-    ]
-  },
-  {
-    "country": "North Korea",
+    "country": "Severní Korea",
     "data": [
       {
         "Rok": 2000,
@@ -11854,7 +10786,7 @@
     ]
   },
   {
-    "country": "North Macedonia",
+    "country": "Severní Makedonie",
     "data": [
       {
         "Rok": 2000,
@@ -11943,7 +10875,7 @@
     ]
   },
   {
-    "country": "Norway",
+    "country": "Norsko",
     "data": [
       {
         "Rok": 2000,
@@ -12032,7 +10964,7 @@
     ]
   },
   {
-    "country": "Oman",
+    "country": "Omán",
     "data": [
       {
         "Rok": 2000,
@@ -12121,7 +11053,7 @@
     ]
   },
   {
-    "country": "Pakistan",
+    "country": "Pákistán",
     "data": [
       {
         "Rok": 2000,
@@ -12299,7 +11231,7 @@
     ]
   },
   {
-    "country": "Papua New Guinea",
+    "country": "Papua-Nová Guinea",
     "data": [
       {
         "Rok": 2000,
@@ -12566,7 +11498,7 @@
     ]
   },
   {
-    "country": "Philippines",
+    "country": "Filipíny",
     "data": [
       {
         "Rok": 2000,
@@ -12655,7 +11587,7 @@
     ]
   },
   {
-    "country": "Poland",
+    "country": "Polsko",
     "data": [
       {
         "Rok": 2000,
@@ -12744,7 +11676,7 @@
     ]
   },
   {
-    "country": "Portugal",
+    "country": "Portugalsko",
     "data": [
       {
         "Rok": 2000,
@@ -12833,7 +11765,7 @@
     ]
   },
   {
-    "country": "Qatar",
+    "country": "Katar",
     "data": [
       {
         "Rok": 2000,
@@ -12922,7 +11854,7 @@
     ]
   },
   {
-    "country": "Romania",
+    "country": "Rumunsko",
     "data": [
       {
         "Rok": 2000,
@@ -13011,7 +11943,7 @@
     ]
   },
   {
-    "country": "Russia",
+    "country": "Rusko",
     "data": [
       {
         "Rok": 2000,
@@ -13189,7 +12121,7 @@
     ]
   },
   {
-    "country": "Saint Kitts and Nevis",
+    "country": "Svatý Kryštof a Nevis",
     "data": [
       {
         "Rok": 2000,
@@ -13278,7 +12210,7 @@
     ]
   },
   {
-    "country": "Saint Lucia",
+    "country": "Svatá Lucie",
     "data": [
       {
         "Rok": 2000,
@@ -13367,7 +12299,7 @@
     ]
   },
   {
-    "country": "Saint Vincent and the Grenadines",
+    "country": "Svatý Vincenc a Grenadiny",
     "data": [
       {
         "Rok": 2000,
@@ -13545,7 +12477,7 @@
     ]
   },
   {
-    "country": "Sao Tome and Principe",
+    "country": "Svatý Tomáš a Princův ostrov",
     "data": [
       {
         "Rok": 2000,
@@ -13634,7 +12566,7 @@
     ]
   },
   {
-    "country": "Saudi Arabia",
+    "country": "Saúdská Arábie",
     "data": [
       {
         "Rok": 2000,
@@ -13812,7 +12744,7 @@
     ]
   },
   {
-    "country": "Serbia",
+    "country": "Srbsko",
     "data": [
       {
         "Rok": 2010,
@@ -13829,7 +12761,7 @@
     ]
   },
   {
-    "country": "Seychelles",
+    "country": "Seychely",
     "data": [
       {
         "Rok": 2000,
@@ -14007,7 +12939,7 @@
     ]
   },
   {
-    "country": "Singapore",
+    "country": "Singapur",
     "data": [
       {
         "Rok": 2000,
@@ -14096,7 +13028,7 @@
     ]
   },
   {
-    "country": "Slovakia",
+    "country": "Slovensko",
     "data": [
       {
         "Rok": 2000,
@@ -14185,7 +13117,7 @@
     ]
   },
   {
-    "country": "Slovenia",
+    "country": "Slovinsko",
     "data": [
       {
         "Rok": 2000,
@@ -14274,7 +13206,7 @@
     ]
   },
   {
-    "country": "Solomon Islands",
+    "country": "Šalomounovy ostrovy",
     "data": [
       {
         "Rok": 2000,
@@ -14363,7 +13295,7 @@
     ]
   },
   {
-    "country": "Somalia",
+    "country": "Somálsko",
     "data": [
       {
         "Rok": 2000,
@@ -14452,7 +13384,7 @@
     ]
   },
   {
-    "country": "South Africa",
+    "country": "Jihoafrická republika",
     "data": [
       {
         "Rok": 2000,
@@ -14541,96 +13473,7 @@
     ]
   },
   {
-    "country": "South Asia (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 1.7281679
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 1.7285867
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 1.851287
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 1.9374267
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 2.0092847
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 2.0976968
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 2.2838576
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 2.58756
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 3.0902672
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 3.5993652
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 4.0513663
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 4.2970853
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 4.4136925
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 4.4302087
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 4.4135776
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 4.3631225
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 4.289025
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 4.2902884
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 4.336405
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 4.3384347
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 3.6319366
-      }
-    ]
-  },
-  {
-    "country": "South Korea",
+    "country": "Jižní Korea",
     "data": [
       {
         "Rok": 2000,
@@ -14719,7 +13562,7 @@
     ]
   },
   {
-    "country": "Spain",
+    "country": "Španělsko",
     "data": [
       {
         "Rok": 2000,
@@ -14808,7 +13651,7 @@
     ]
   },
   {
-    "country": "Sri Lanka",
+    "country": "Srí Lanka",
     "data": [
       {
         "Rok": 2000,
@@ -14897,96 +13740,7 @@
     ]
   },
   {
-    "country": "Sub-Saharan Africa (WB)",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 5.555143
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 5.5525794
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 5.4831686
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 5.463019
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 5.3686237
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 5.3494825
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 5.2623396
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 5.2223434
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 5.1827946
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 4.8951025
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 4.7193017
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 4.5270987
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 4.595506
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 4.6336813
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 4.646283
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 4.621027
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 4.5359335
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 4.482974
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 4.4619246
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 4.462013
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 4.153309
-      }
-    ]
-  },
-  {
-    "country": "Sudan",
+    "country": "Súdán",
     "data": [
       {
         "Rok": 2000,
@@ -15075,7 +13829,7 @@
     ]
   },
   {
-    "country": "Suriname",
+    "country": "Surinam",
     "data": [
       {
         "Rok": 2000,
@@ -15164,7 +13918,7 @@
     ]
   },
   {
-    "country": "Sweden",
+    "country": "Švédsko",
     "data": [
       {
         "Rok": 2000,
@@ -15253,7 +14007,7 @@
     ]
   },
   {
-    "country": "Switzerland",
+    "country": "Švýcarsko",
     "data": [
       {
         "Rok": 2000,
@@ -15342,7 +14096,7 @@
     ]
   },
   {
-    "country": "Syria",
+    "country": "Sýrie",
     "data": [
       {
         "Rok": 2000,
@@ -15431,7 +14185,7 @@
     ]
   },
   {
-    "country": "Tajikistan",
+    "country": "Tádžikistán",
     "data": [
       {
         "Rok": 2000,
@@ -15520,7 +14274,7 @@
     ]
   },
   {
-    "country": "Tanzania",
+    "country": "Tanzanie",
     "data": [
       {
         "Rok": 2000,
@@ -15609,7 +14363,7 @@
     ]
   },
   {
-    "country": "Thailand",
+    "country": "Thajsko",
     "data": [
       {
         "Rok": 2000,
@@ -15876,7 +14630,7 @@
     ]
   },
   {
-    "country": "Trinidad and Tobago",
+    "country": "Trinidad a Tobago",
     "data": [
       {
         "Rok": 2000,
@@ -15965,7 +14719,7 @@
     ]
   },
   {
-    "country": "Tunisia",
+    "country": "Tunisko",
     "data": [
       {
         "Rok": 2000,
@@ -16054,7 +14808,7 @@
     ]
   },
   {
-    "country": "Turkey",
+    "country": "Turecko",
     "data": [
       {
         "Rok": 2000,
@@ -16143,7 +14897,7 @@
     ]
   },
   {
-    "country": "Turkmenistan",
+    "country": "Turkmenistán",
     "data": [
       {
         "Rok": 2000,
@@ -16410,7 +15164,7 @@
     ]
   },
   {
-    "country": "Ukraine",
+    "country": "Ukrajina",
     "data": [
       {
         "Rok": 2000,
@@ -16499,7 +15253,7 @@
     ]
   },
   {
-    "country": "United Arab Emirates",
+    "country": "Spojené arabské emiráty",
     "data": [
       {
         "Rok": 2000,
@@ -16588,7 +15342,7 @@
     ]
   },
   {
-    "country": "United Kingdom",
+    "country": "Spojené království",
     "data": [
       {
         "Rok": 2000,
@@ -16677,7 +15431,7 @@
     ]
   },
   {
-    "country": "United States",
+    "country": "Spojené státy",
     "data": [
       {
         "Rok": 2000,
@@ -16762,95 +15516,6 @@
       {
         "Rok": 2020,
         "Hodnota": 9.9
-      }
-    ]
-  },
-  {
-    "country": "Upper-middle-income countries",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 4.1572404
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 4.1503835
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 3.9863718
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 3.8910172
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 3.8928943
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 4.0140777
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 4.2278237
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 4.446834
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 4.6911077
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 4.989649
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 5.3730245
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 5.706695
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 5.9241805
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 6.0058503
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 6.020585
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 6.0205593
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 5.9017715
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 5.5240135
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 5.0749197
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 5.0773005
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 4.3509507
       }
     ]
   },
@@ -16944,7 +15609,7 @@
     ]
   },
   {
-    "country": "Uzbekistan",
+    "country": "Uzbekistán",
     "data": [
       {
         "Rok": 2000,
@@ -17300,96 +15965,7 @@
     ]
   },
   {
-    "country": "World",
-    "data": [
-      {
-        "Rok": 2000,
-        "Hodnota": 5.109159
-      },
-      {
-        "Rok": 2001,
-        "Hodnota": 5.0829287
-      },
-      {
-        "Rok": 2002,
-        "Hodnota": 5.007844
-      },
-      {
-        "Rok": 2003,
-        "Hodnota": 4.964274
-      },
-      {
-        "Rok": 2004,
-        "Hodnota": 4.957191
-      },
-      {
-        "Rok": 2005,
-        "Hodnota": 5.00661
-      },
-      {
-        "Rok": 2006,
-        "Hodnota": 5.10562
-      },
-      {
-        "Rok": 2007,
-        "Hodnota": 5.2269096
-      },
-      {
-        "Rok": 2008,
-        "Hodnota": 5.3801312
-      },
-      {
-        "Rok": 2009,
-        "Hodnota": 5.5249214
-      },
-      {
-        "Rok": 2010,
-        "Hodnota": 5.7131624
-      },
-      {
-        "Rok": 2011,
-        "Hodnota": 5.8541713
-      },
-      {
-        "Rok": 2012,
-        "Hodnota": 5.944793
-      },
-      {
-        "Rok": 2013,
-        "Hodnota": 5.953102
-      },
-      {
-        "Rok": 2014,
-        "Hodnota": 5.9229426
-      },
-      {
-        "Rok": 2015,
-        "Hodnota": 5.8862357
-      },
-      {
-        "Rok": 2016,
-        "Hodnota": 5.7950606
-      },
-      {
-        "Rok": 2017,
-        "Hodnota": 5.62412
-      },
-      {
-        "Rok": 2018,
-        "Hodnota": 5.4417143
-      },
-      {
-        "Rok": 2019,
-        "Hodnota": 5.4306674
-      },
-      {
-        "Rok": 2020,
-        "Hodnota": 4.891753
-      }
-    ]
-  },
-  {
-    "country": "Yemen",
+    "country": "Jemen",
     "data": [
       {
         "Rok": 2000,
@@ -17478,7 +16054,7 @@
     ]
   },
   {
-    "country": "Zambia",
+    "country": "Zambie",
     "data": [
       {
         "Rok": 2000,
