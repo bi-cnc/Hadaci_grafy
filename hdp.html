@@ -1,0 +1,1190 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hádej zemi podle HDP</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* --- ZÁKLADNÍ STYLY KONTEJNERU --- */
+        /* --- TITULEK + PODTITULEK --- */
+            /* --- Styly pro VLASTNÍ našeptávač (řeší pozici, velikost, rolování) --- */
+            .autocomplete-wrapper {
+                position: relative; /* Klíčové: Kontejner pro input je relativní */
+                flex-grow: 1;
+            }
+
+            .country-suggestions {
+                position: absolute; /* Klíčové: Kontejner návrhů je absolutní */
+                top: 100%;          /* Zobrazí se přesně pod inputem */
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                
+                /* Vlastní OMEZENÍ VELIKOSTI */
+                max-height: 200px; /* Nastaví max. výšku */
+                overflow-y: auto;  /* Umožní scrollování, když se překročí max-height */
+                
+                border: 1px solid #ddd;
+                border-top: none;
+                background-color: #fff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 0 0 4px 4px;
+                display: none; /* Výchozí stav: skryté */
+            }
+
+            .suggestion-item {
+                padding: 10px 12px;
+                cursor: pointer;
+                font-size: 1rem;
+                color: #333;
+                border-bottom: 1px solid #eee;
+                transition: background-color 0.1s;
+            }
+
+            .suggestion-item:last-child {
+                border-bottom: none;
+            }
+
+            .suggestion-item:hover {
+                background-color: #f0f0f0;
+            }
+
+            /* Zvýraznění shodující se části textu */
+            .suggestion-item span.match {
+                font-weight: 700;
+                color: #1976d2;
+            }
+
+            /* Zajištění, že input vyplní šířku wrapperu */
+            .autocomplete-wrapper input {
+                width: 100%; 
+                box-sizing: border-box; 
+                border-radius: 4px; /* Zajištění horních kulatých rohů */
+            }
+            .title-wrapper {
+                text-align: center;
+                margin-bottom: 20px;
+                animation: fadeIn 0.6s ease-out; /* jemný fade-in při načtení */
+            }
+
+            .title-wrapper h2 {
+                font-size: 1.8rem;
+                color: #222;
+                margin-bottom: 8px;
+            }
+
+            .chart-subtitle {
+                font-size: 1.2rem;
+                color: #666;
+                font-weight: 400;
+                letter-spacing: 0.3px;
+                margin: 0;
+            }
+
+            /* --- ANIMACE PRO TITULEK --- */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(6px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+                .youdrawit-container {
+            max-width: 660px;
+            margin: 40px auto;
+            padding: 0 16px;
+            box-sizing: border-box;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            padding-bottom: 30px;
+            /* 👇 PŘIDEJTE TOTO 👇 */
+            color-scheme: only light; 
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .youdrawit-container svg {
+            width: 100%;
+            max-width: 620px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            min-height: 400px; 
+            overflow: visible;
+            background-color: #ffffff !important;
+            color-scheme: only light !important;
+            forced-color-adjust: none !important;
+        }
+
+        /* --- TYPOGRAFIE --- */
+        .youdrawit-container h2 {
+            padding-top: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+            color: #222;
+        }
+        .youdrawit-container .chart-title {
+            text-align: center;
+            font-weight: 500;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        .youdrawit-container .guess-prompt {
+            text-align: center;
+            font-size: 1.3rem;
+            color: #2e2d2d; 
+            font-weight: 700;
+            margin-top: 15px;
+            line-height: 1.6;
+            letter-spacing: 0.4px; 
+        }
+        .youdrawit-container .guess-prompt .highlighted {
+            background-color: #f7483b;  /* tvoje nová červená */
+            color: #fff;                /* bílý text */
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            letter-spacing: 0.4px;   /* 🔹 přidá jemné rozestupy */
+        }
+
+        /* --- STYLY GRAFU (D3.JS) --- */
+        .country-line {
+            fill: none;
+            stroke-width: 1.5;
+            opacity: 0.1; 
+            transition: opacity 0.3s;
+        }
+        .mystery-line {
+            stroke: #f7483b; 
+            stroke-width: 3.5;
+            opacity: 1;
+            fill: none; 
+        }
+        .guessed-line {
+            stroke-width: 2.5;
+            opacity: 0.9;
+            fill: none;
+        }
+        .tick line {
+            stroke: #e0e0e0;
+        }
+        /* --- OSA X --- */
+        .x-axis .tick text {
+            text-anchor: middle;
+            dx: 0;
+            dy: 6px; /* posune text lehce dolů pod osu */
+            fill: #555;
+            font-size: 16px;  /* 💥 přepíše inline atribut */
+            font-weight: 500;
+        }
+
+        /* --- OSA Y --- */
+        .y-axis .tick text {
+            text-anchor: end;
+            dx: -4px;
+            fill: #010101 !important; /* 👈 ZMĚNA: Tmavší barva + !important */
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .domain {
+            stroke: #ccc;
+            stroke-width: 1.5;
+        }
+        .y-grid line {
+            stroke: #f0f0f0;
+            stroke-width: 1;
+        }
+        .label-text {
+            font-size: 13px;
+            font-weight: 700;
+            text-shadow: 0 0 3px #fff, 0 0 3px #fff; 
+        }
+        .country-dot {
+            fill: currentColor;
+            stroke: #fff;
+            stroke-width: 2;
+        }
+
+        /* --- FORMULÁŘ A TLAČÍTKA --- */
+        .guess-form {
+            display: flex;
+            gap: 10px;
+            max-width: 620px;
+            margin: 20px auto 0 auto;
+            /* padding: 0 16px;*/
+        }
+        .guess-form input {
+            flex-grow: 1;
+            /* ZVÝŠENO ODSZENÍ PRO LEPŠÍ VIDITELNOST HÁČKŮ */
+            padding: 14px 12px; 
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        .guess-form button, #new-game-button, #new-game-button-result {
+            padding: 12px 20px;
+            font-size: 1rem;
+            background-color: #1976d2; 
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            min-width: 120px;
+            transition: background-color 0.2s;
+            font-weight: 600;
+        }
+        .guess-form button:hover, #new-game-button:hover, #new-game-button-result:hover {
+            background-color: #1565c0;
+        }
+        .guess-form button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+                /* --- Desktop / tablet --- */
+        .select-mobile {
+        display: none;
+        }
+
+/* --- Mobilní verze --- */
+         @media (max-width: 700px) {
+        .input-desktop {
+            /* 🚀 OPRAVA: Musí se ZOBRAZIT (např. jako blok, aby se správně renderoval s wrapperem) */
+            display: block; 
+            flex-grow: 1; /* Ponechat pro správné rozložení ve flex kontejneru */
+        }
+
+        /* 1. UPRAVTE SELECT BOX - Nyní SKRÝVÁME, protože je zbytečný */
+        .select-mobile {
+            display: none; /* ❗ SKRYTÍ STARÉHO SELECTU ❗ */
+        }
+
+        /* 2. PŘIDEJTE STYL PRO TLAČÍTKO (Ponecháno beze změny) */
+         .guess-form button {
+        flex-shrink: 0;     /* Zabrání smrštění tlačítka */
+        padding: 12px 14px;  /* Menší boční padding */
+        min-width: auto; /* Zruší desktopový min-width */
+        }
+        }
+
+        /* --- VÝSLEDKOVÝ BOX (Nyní slouží místo modálu) --- */
+        #result-box {
+            max-width: 620px;
+            margin: 30px auto 35px auto;
+            padding: 25px;
+            border-radius: 8px;
+            background-color: #f5f5f5;  /* světle šedá */
+            border-left: 5px solid #f4685e; /* decentní červený proužek */
+            display: none;
+            line-height: 1.6;
+            color: #333;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-weight: 400; /* 🔹 výchozí: běžné písmo */
+        }
+
+        /* vše uvnitř #result-box bez tučného stylu, přepíše dědičné styly z E15 */
+        #result-box * {
+            font-weight: 400 !important;
+        }
+
+        /* 🔹 Nadpis a zvýrazněná odpověď zůstávají tučné */
+        #result-box h3,
+        #result-box .correct-answer {
+            font-weight: 700 !important;
+        }
+
+        #result-box h3 {
+            color: #1976d2;
+            margin-top: 0;
+            font-size: 1.6rem; 
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .correct-answer {
+            color: #f7483b; /* Červená pro správnou odpověď */
+        }
+
+        #result-box button {
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* --- Seznam tipů --- */
+        #guess-list {
+            max-width: 620px;
+            margin: 20px auto;
+            padding: 0 16px;
+        }
+
+        .guess-item {
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            font-size: 1.1rem; /* 🔹 menší text (cca 15 px) */
+        }
+
+        .guess-item span:first-child {
+            font-weight: 600;
+            color: #444;
+        }
+
+        /* --- PULZUJÍCÍ LINKA --- */
+        @keyframes celebratePulse {
+            0% { stroke-width: 3.5; opacity: 1; }
+            50% { stroke-width: 6; opacity: 0.6; }
+            100% { stroke-width: 3.5; opacity: 1; }
+        }
+        .celebrate-line {
+            animation: celebratePulse 0.6s ease-in-out 3;
+        }
+
+        /* --- KONFETI EFEKT --- */
+        @keyframes fall {
+        to {
+            transform: translateY(100vh) rotate(720deg);
+            opacity: 0;
+        }
+        }
+        .confetti {
+        border-radius: 50%;
+        opacity: 0.9;
+        }
+
+        .source-text {
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        color: #777;
+        margin-top: 10px;
+        }
+        .focus-line {
+        transition: opacity 0.2s ease;
+        }
+
+        .focus-dot {
+        transition: opacity 0.2s ease;
+        }
+
+        .focus-label text {
+        font-family: 'Segoe UI', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="youdrawit-container">
+    <div class="title-wrapper">
+        <h2>Kdo jak rychle bohatne?</h2>
+        <p class="chart-subtitle">HDP na obyvatele (v tis. USD)</p>
+    </div>
+
+    <svg id="guess-chart" viewBox="0 0 620 520" preserveAspectRatio="xMinYMin meet" width="100%" height="100%"></svg>
+
+    <div id="result-box"></div> 
+    
+    <div class="guess-prompt">
+    Jaká země se skrývá pod <span class="highlighted">červenou linkou?</span>
+    </div>
+
+    <div class="guess-form">
+        <div class="autocomplete-wrapper input-desktop">
+            <input 
+                type="text" 
+                id="country-input" 
+                placeholder="🔍 Zadej název země" 
+                autocomplete="off"
+            >
+            <div id="custom-suggestions" class="country-suggestions"></div>
+        </div>
+        
+        <datalist id="country-suggestions"></datalist>
+
+        <select id="country-select" class="select-mobile">
+            <option value="" disabled selected hidden>🔍 Vyber zemi</option>
+        </select>
+
+        <button id="guess-button">Hádej 1/5</button>
+    </div>
+
+    <!-- ⭐️ TADY MUSÍ BÝT TEN PRVEK ⭐️ -->
+    <div id="guess-list"></div>
+
+
+
+<script>
+    (function() {
+        const parseDate = d3.timeParse("%Y"); 
+        const MAX_GUESSES = 5;
+        let guessesMade = 0;
+        let gameOver = false;
+        
+        const d3Colors = ["#007bff", "#28a745", "#ffc107", "#6f42c1","#FF3BF2"]; // Modrá, zelená, žlutá, fialová
+        const guessColors = d3.scaleOrdinal(d3Colors);
+        const HIGHLIGHT_COLOR = "#f7483b"; 
+
+        // 🌍 URL datového souboru na GitHubu
+        const DATA_URL = "https://raw.githubusercontent.com/bi-cnc/Hadaci_graf_HDP_na_osobu_data/main/hdp.json";
+
+        const CORRECT_COUNTRY = 'Singapur';
+        const CORRECT_EXPLANATION = `
+            Ekonomický příběh Singapuru patří mezi nejúspěšnější v moderní historii. Po získání nezávislosti v roce
+             1965 čelil městský stát vysoké nezaměstnanosti a nedostatku zdrojů. Vláda Lee Kuan Yewa však zvolila 
+             strategii přilákání zahraničních investic pomocí nízkých daní, právní stability a nulové tolerance ke korupci. 
+             Díky strategické poloze se stal klíčovým logistickým uzlem a investicemi do vzdělání vytvořil kvalifikovanou pracovní sílu.
+              Singapur se tak proměnil z průmyslové základny v globální centrum financí, technologií a služeb, což vedlo k 
+              prudkému růstu bohatství.
+            <br><br>
+            <span class="source-text">Zdroj dat: Světová banka</span>
+        `;
+
+        // 🗂️ Načtená data
+        let ALL_DATA_JSON = [];
+        let countryNames = [];
+
+        // --- ZÁKLADNÍ NASTAVENÍ GRAFU ---
+        let margin = { top: 30, right: 30, bottom: 60, left: 60 };
+        let width, height, svgGroup, x, y;
+        
+        const getCountryData = (countryName) => ALL_DATA_JSON.find(d => d.country === countryName);
+
+        // 🌐 Načtení dat z GitHubu
+        fetch(DATA_URL)
+            .then(response => {
+                if (!response.ok) throw new Error("Nepodařilo se načíst data.");
+                return response.json();
+            })
+            .then(data => {
+                ALL_DATA_JSON = data;
+                countryNames = data.map(d => d.country);
+                initializeGame(); // 🚀 Spuštění po načtení dat
+            })
+            .catch(error => {
+                console.error("❌ Chyba při načítání dat:", error);
+                alert("Nepodařilo se načíst data. Zkontroluj připojení nebo URL.");
+            });
+
+        
+        function drawChart() {
+            const svgElement = document.getElementById("guess-chart");
+            d3.select(svgElement).selectAll("*").remove();
+
+            const currentSvgWidth = svgElement.getBoundingClientRect().width;
+            width = currentSvgWidth - margin.left - margin.right;
+            let heightRatio = window.innerWidth < 500 ? 1.7 : 0.9;
+            height = (currentSvgWidth * heightRatio) - margin.top - margin.bottom;
+
+            d3.select(svgElement)
+                .attr("viewBox", `0 0 ${currentSvgWidth} ${currentSvgWidth * heightRatio}`)
+                .attr("preserveAspectRatio", "xMinYMin meet");
+
+            svgGroup = d3.select(svgElement)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // 🛠️ OPRAVA OSY X: Dynamická změna intervalu ticků
+            const tickInterval = window.innerWidth < 450 
+                                ? d3.timeYear.every(10) // Mobily (pod 450px): Zobrazit jen každých 10 let
+                                : d3.timeYear.every(5); // Vše ostatní: Zobrazit každých 5 let
+
+            // --- Osy ---
+            x = d3.scaleTime()
+                .domain([parseDate(1990), parseDate(2025)])
+                .range([0, width]);
+
+            y = d3.scaleLinear()
+                .domain([0, 150000])
+                .range([height, 0]);
+
+            const yAxisFormat = d => `${(d / 1000).toFixed(0)} tis. USD`;
+
+            svgGroup.append("g")
+                .attr("class", "x-axis")
+                .attr("transform", `translate(0,${height})`)
+                .call(
+                    d3.axisBottom(x)
+                        .tickFormat(d3.timeFormat("%Y"))
+                        .ticks(tickInterval)
+                ) // 👈 žádný středník tady!
+                .selectAll("text")
+                .style("font-size", "17px")    /* 👈 OPRAVENO */
+                .style("font-weight", "500");
+
+            
+            // 🎯 Definuj konkrétní hodnoty pro osu i grid
+            const yTickValues = [0, 20000, 40000, 60000, 80000, 100000, 120000, 140000];
+
+            // 🧭 Osa Y s pevně danými hodnotami
+            svgGroup.append("g")
+                .attr("class", "y-axis")   // 👈 DOPLNIT
+                .call(
+                    d3.axisLeft(y)
+                    .tickValues(yTickValues)
+                    .tickFormat(d => `${(d / 1000).toFixed(0)} tis.`)
+                )
+            .selectAll("text")
+            .attr("dx", "-6") // ← jemný posun doleva (větší mezera)
+            .style("font-size", "16px")    /* 👈 ZVĚTŠIT TOTO */
+            .style("font-weight", "500");
+            
+            // ⚙️ Grid — sladěný s osou Y
+            svgGroup.append("g")
+            .attr("class", "y-grid")
+            .call(
+                d3.axisLeft(y)
+                .tickValues(yTickValues)
+                .tickSize(-width)  // čáry přes celý graf
+                .tickFormat("")    // bez popisků
+            )
+            .selectAll("line")
+            .attr("stroke", "#eee")
+            .attr("stroke-dasharray", "3,3");
+
+            // Odstraníme obrys (svislou čáru vlevo)
+            svgGroup.selectAll(".y-grid path").remove();
+
+
+            // --- Line generator s plynulejší křivkou ---
+            const line = d3.line()
+                .x(d => x(parseDate(d.Rok)))
+                .y(d => y(d.Hodnota))
+                .defined(d => d.Hodnota !== null)
+                .curve(d3.curveCatmullRom.alpha(0.5)); // jemnější průběh
+
+            // --- 🩶 Šedé linky všech ostatních zemí ---
+            ALL_DATA_JSON.forEach(d => {
+                if (d.country !== CORRECT_COUNTRY) {
+                    svgGroup.append("path")
+                        .datum(d.data)
+                        .attr("class", "country-line")
+                        .attr("d", line)
+                        .attr("stroke", "#363433")     // tmavší šedá
+                        .attr("stroke-width", 2.4)     // silnější
+                        .attr("fill", "none")
+                        .attr("opacity", 0.85);        // dobře viditelné
+                }
+            });
+
+
+// --- ❤️ Červená animovaná mystery line s diagonálním gradientem ---
+            const mysteryData = getCountryData(CORRECT_COUNTRY).data;
+            const lastPoint = mysteryData[mysteryData.length - 1];
+
+            // 🎨 Definice gradientu
+            const gradient = svgGroup.append("defs")
+            .append("linearGradient")
+            .attr("id", "redGradient")
+            .attr("x1", "0%")
+            .attr("y1", "100%")
+            .attr("x2", "100%")
+            .attr("y2", "0%");
+
+            gradient.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", "#f86a5f");
+            gradient.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", "#f7483b");
+
+            // 💫 Definice jemného stínu
+            const filter = svgGroup.select("defs")
+            .append("filter")
+            .attr("id", "softShadow")
+            .attr("x", "-20%")
+            .attr("y", "-20%")
+            .attr("width", "150%")
+            .attr("height", "150%");
+
+            filter.append("feDropShadow")
+            .attr("dx", 0.8)     // posun stínu na X
+            .attr("dy", 1.2)     // posun na Y
+            .attr("stdDeviation", 1.2)  // rozmazání
+            .attr("flood-color", "#000")
+            .attr("flood-opacity", 0.25);
+
+            // 🟥 Červená čára s přechodem
+            const redPath = svgGroup.append("path")
+            .datum(mysteryData)
+            .attr("class", "mystery-line")
+            .attr("stroke", "url(#redGradient)")
+            .attr("fill", "none")
+            .attr("stroke-width", 3.5)
+            .attr("filter", "url(#softShadow)")  // 🌟 použije stín
+            .attr("d", line);
+
+            // 🧭 Tooltip container
+            const tooltip = d3.select(".youdrawit-container")
+            .append("div")
+            .attr("class", "tooltip")
+            .style("position", "absolute")
+            .style("background", "white")
+            .style("border", "1px solid #ddd")
+            .style("border-radius", "6px")
+            .style("padding", "6px 10px")
+            .style("font-size", "13px")
+            .style("color", "#333")
+            .style("box-shadow", "0 2px 8px rgba(0,0,0,0.1)")
+            .style("pointer-events", "none")
+            .style("opacity", 0);
+
+            // 🟢 Overlay pro interakci (neviditelný, ale zachytává pohyb myši)
+            svgGroup.append("rect")
+            .attr("width", width)
+            .attr("height", height)
+            .style("fill", "none")
+            .style("pointer-events", "all")
+            .on("mousemove", (event) => {
+                const [mouseX] = d3.pointer(event);
+                const bisect = d3.bisector(d => parseDate(d.Rok)).left;
+                const x0 = x.invert(mouseX);
+                const i = bisect(mysteryData, x0, 1);
+                const d0 = mysteryData[i - 1];
+                const d1 = mysteryData[i];
+                const d = x0 - parseDate(d0.Rok) > parseDate(d1.Rok) - x0 ? d1 : d0;
+
+                tooltip.transition().duration(100).style("opacity", 1);
+                tooltip.html(`
+                    <strong>${d.Rok}</strong><br>
+                    ${d.Hodnota.toLocaleString("cs-CZ")} USD
+                `)
+                .style("left", (event.pageX + 15) + "px")
+                .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseleave", () => {
+                tooltip.transition().duration(200).style("opacity", 0);
+            });
+
+            const totalLength = redPath.node().getTotalLength();
+
+            redPath
+                .attr("stroke-dasharray", `${totalLength} ${totalLength}`)
+                .attr("stroke-dashoffset", totalLength)
+                .transition()
+                .duration(2500)
+                .ease(d3.easeCubicOut)
+                .attr("stroke-dashoffset", 0);
+
+            // --- ✨ Po dokončení animace přidat label a tečku ---
+            redPath.transition().delay(2500).on("end", () => {
+                svgGroup.append("text")
+                    .attr("x", x(parseDate(lastPoint.Rok)) + 8)
+                    .attr("y", y(lastPoint.Hodnota) + 5)
+                    .attr("text-anchor", "start")
+                    .style("fill", HIGHLIGHT_COLOR)
+                    .style("font-size", "20px")  // 👈 zvětšení otazníku
+                    .attr("class", "label-text mystery-question")
+                    .text("?");
+
+                svgGroup.append("circle")
+                    .attr("cx", x(parseDate(lastPoint.Rok)))
+                    .attr("cy", y(lastPoint.Hodnota))
+                    .attr("r", 5)
+                    .attr("class", "country-dot")
+                    .style("fill", HIGHLIGHT_COLOR);
+            });
+            // 🟡 Tooltip pro červenou linku ve stylu Our World in Data
+            const focusLine = svgGroup.append("line")
+            .attr("class", "focus-line")
+            .attr("stroke", "#999")
+            .attr("stroke-dasharray", "3,3")
+            .attr("stroke-width", 1)
+            .style("opacity", 0);
+
+            const focusDot = svgGroup.append("circle")
+            .attr("class", "focus-dot")
+            .attr("r", 5)
+            .attr("fill", HIGHLIGHT_COLOR)
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 2)
+            .style("opacity", 0);
+
+            const focusLabel = svgGroup.append("g")
+            .attr("class", "focus-label")
+            .style("opacity", 0);
+
+            focusLabel.append("rect")
+                .attr("rx", 6)
+                .attr("ry", 6)
+                .attr("fill", "rgba(255, 255, 255, 0.85)")  // 🔹 poloprůhledné bílé pozadí
+                .attr("stroke", "none")                      // 🔹 bez červeného rámečku
+                .attr("height", 28)
+                .attr("width", 64)
+                .attr("y", -20)
+                .attr("x", 10)
+                .style("filter", "drop-shadow(0px 1px 2px rgba(0,0,0,0.15))");
+
+            focusLabel.append("text")
+                .attr("x", 42)
+                .attr("y", -4)
+                .attr("text-anchor", "middle")
+                .attr("alignment-baseline", "middle")
+                .attr("fill", HIGHLIGHT_COLOR)   // zůstává červený text
+                .attr("font-weight", "700")
+                .attr("font-size", "13px");
+
+            // 🎯 Overlay pro interakci
+            svgGroup.append("rect")
+            .attr("width", width)
+            .attr("height", height)
+            .style("fill", "none")
+            .style("pointer-events", "all")
+            .on("mousemove", (event) => {
+                const [mouseX] = d3.pointer(event);
+                const bisect = d3.bisector(d => parseDate(d.Rok)).left;
+                const x0 = x.invert(mouseX);
+                const i = bisect(mysteryData, x0, 1);
+                const d0 = mysteryData[i - 1];
+                const d1 = mysteryData[i];
+                const d = x0 - parseDate(d0.Rok) > parseDate(d1.Rok) - x0 ? d1 : d0;
+
+                // Aktualizuj prvky
+                focusLine
+                    .attr("x1", x(parseDate(d.Rok)))
+                    .attr("x2", x(parseDate(d.Rok)))
+                    .attr("y1", 0)
+                    .attr("y2", height)
+                    .style("opacity", 0.5);
+
+                focusDot
+                    .attr("cx", x(parseDate(d.Rok)))
+                    .attr("cy", y(d.Hodnota))
+                    .style("opacity", 1);
+
+                focusLabel
+                    .attr("transform", `translate(${x(parseDate(d.Rok))},${y(d.Hodnota)})`)
+                    .style("opacity", 1);
+                
+                focusLabel.select("text")
+                    .text(`${(d.Hodnota / 1000).toFixed(1).replace('.', ',')} tis.`);
+            })
+            .on("mouseleave", () => {
+                focusLine.style("opacity", 0);
+                focusDot.style("opacity", 0);
+                focusLabel.style("opacity", 0);
+            });
+
+        }
+
+        
+        // --- FUNKCE PRO INTERAKCI ---
+        
+        let guessList = [];
+
+        function updateGuessList() {
+             const guessListDiv = d3.select("#guess-list");
+             guessListDiv.selectAll("*").remove();
+             
+             if (guessesMade > 0) {
+                 guessList.slice().reverse().forEach((guess, index) => {
+                     const originalIndex = guessesMade - 1 - index; 
+                     const color = guess.correct ? HIGHLIGHT_COLOR : guessColors(originalIndex);
+                     
+                     guessListDiv.append("div")
+                         .attr("class", "guess-item")
+                         .style("border-left", `5px solid ${color}`)
+                         .html(`<span>${originalIndex + 1}. ${guess.country}</span>
+                                  <span style="color: ${color};">${guess.correct ? "✓ Správně!" : "✕ Špatně"}</span>`);
+                 });
+             }
+        }
+        
+        function drawGuessLine(countryName, isCorrect) {
+            const data = getCountryData(countryName).data;
+            const color = isCorrect ? HIGHLIGHT_COLOR : guessColors(guessesMade - 1);
+
+            const line = d3.line()
+                .x(d => x(parseDate(d.Rok)))
+                .y(d => y(d.Hodnota))
+                .defined(d => d.Hodnota !== null)
+                .curve(d3.curveCatmullRom.alpha(0.5)); // plynulé křivky, stejné jako hlavní
+
+            // 🩵 Jemnější čára pro tipy
+            const path = svgGroup.append("path")
+                .datum(data)
+                .attr("class", "guessed-line")
+                .attr("fill", "none")
+                .attr("stroke", color)
+                .attr("stroke-width", isCorrect ? 3.5 : 1.8) // červená silnější, ostatní jemnější
+                .attr("opacity", isCorrect ? 0.95 : 0.8)
+                .attr("d", line);
+
+            // ✨ Animace vykreslení
+            const totalLength = path.node().getTotalLength();
+            path
+                .attr("stroke-dasharray", `${totalLength} ${totalLength}`)
+                .attr("stroke-dashoffset", totalLength)
+                .transition()
+                .duration(1800)
+                .ease(d3.easeCubicOut)
+                .attr("stroke-dashoffset", 0);
+
+            // 🟢 Po animaci přidej tečku a zkratku země – správně podle dat a s chytrým posouváním
+            
+            // 🎯 OPRAVA: Najdeme poslední bod, který má platnou hodnotu (není null ani undefined)
+            // Používáme (d.Hodnota != null), což zachytí obojí.
+            const validData = data.filter(d => d.Hodnota != null);
+            const lastPoint = validData.length > 0 ? validData[validData.length - 1] : null;
+
+            path.transition().delay(1800).on("end", () => {
+
+                        // 🛑 Pojistka: Pokud pro zemi neexistuje žádný platný bod, nic nekresli
+                        if (!lastPoint) return; 
+
+            if (!window.usedLabelPositions) window.usedLabelPositions = [];
+
+            const xPos = x(parseDate(lastPoint.Rok));
+            const yPos = y(lastPoint.Hodnota);
+            let labelY = yPos + 5;
+            const minDistance = 10;
+            const chartBottom = y(0) - 10;
+            const chartTop = 10;
+
+            // Najdi nejbližší popisek a pokud koliduje, posuň nahoru nebo dolů
+            let attempts = 0;
+            while (
+                window.usedLabelPositions.some(pos => Math.abs(pos.y - labelY) < minDistance) &&
+                attempts < 10
+            ) {
+                labelY += (attempts % 2 === 0 ? -1 : 1) * minDistance; // střídavě nahoru/dolů
+                attempts++;
+            }
+
+            // Zajisti, že label zůstane uvnitř grafu
+            labelY = Math.max(chartTop, Math.min(chartBottom, labelY));
+
+            // Pokud už fakt není místo → posuň trochu víc doprava
+            const collision = window.usedLabelPositions.some(pos => Math.abs(pos.y - labelY) < minDistance);
+            const xOffset = collision ? 40 : 10; // 👉 pokud kolize přetrvá, label jde víc vpravo
+
+            // Ulož pozici
+            window.usedLabelPositions.push({ y: labelY, xOffset });
+
+            // 🔵 Tečka zůstává přesně na konci linky podle dat
+            svgGroup.append("circle")
+                .attr("cx", xPos)
+                .attr("cy", yPos)
+                .attr("r", isCorrect ? 5 : 4)
+                .attr("class", "country-dot")
+                .style("fill", color);
+
+            if (!isCorrect) {
+                svgGroup.append("text")
+                    .attr("x", xPos + xOffset)
+                    .attr("y", labelY)
+                    .attr("text-anchor", "start")
+                    .attr("class", "label-text")
+                    .style("fill", color)
+                    .style("font-size", "12px")
+                    .text(countryName.substring(0, 3).toUpperCase());
+            }
+        });
+
+        }
+
+
+        // 🏆 UPRAVENÁ FUNKCE endGame() PRO POUŽITÍ #result-box
+        function endGame(won) {
+            gameOver = true;
+
+            // --- SMAZAT OTÁZNÍK A TEČKU ---
+            svgGroup.selectAll(".mystery-question").remove();  // otazník
+            svgGroup.selectAll(".country-dot").remove();       // původní tečka na konci linky
+            svgGroup.selectAll(".mystery-label").remove();     // staré labely
+            svgGroup.selectAll(".mystery-dot").remove();       // staré tečky
+
+            // --- Nahrazení otazníku za zkratku země ---
+            try {
+                const correctData = getCountryData(CORRECT_COUNTRY).data;
+                const lastValid = correctData.filter(d => d.Hodnota != null).pop();
+
+                const xPos = x(parseDate(lastValid.Rok));
+                const yPos = y(lastValid.Hodnota);
+
+                // Nová tečka
+                svgGroup.append("circle")
+                    .attr("cx", xPos)
+                    .attr("cy", yPos)
+                    .attr("r", 5)
+                    .attr("class", "mystery-dot")
+                    .style("fill", HIGHLIGHT_COLOR);
+
+                // Třípísmenná zkratka země
+                svgGroup.append("text")
+                    .attr("x", xPos + 8)
+                    .attr("y", yPos + 5)
+                    .attr("text-anchor", "start")
+                    .attr("class", "mystery-label label-text")
+                    .style("fill", HIGHLIGHT_COLOR)
+                    .style("font-size", "14px")
+                    .text(CORRECT_COUNTRY.substring(0, 3).toUpperCase());
+
+            } catch (e) {
+                console.warn("Label replace failed:", e);
+            }
+
+            d3.select("#guess-button").attr("disabled", true).text("Konec hry");
+            d3.select("#country-input").attr("disabled", true).property("value", "");
+            d3.select("#country-select").attr("disabled", true);
+
+            const resultBox = document.getElementById("result-box");
+            let contentHTML = "";
+
+            if (won) {
+                d3.select(".mystery-line").classed("celebrate-line", true);
+
+                // (konfety beze změny)
+                for (let i = 0; i < 80; i++) {
+                    const confetti = document.createElement("div");
+                    confetti.classList.add("confetti");
+                    document.body.appendChild(confetti);
+
+                    const size = Math.random() * 6 + 4;
+                    const left = Math.random() * window.innerWidth;
+                    const hue = Math.random() * 360;
+                    const duration = Math.random() * 1.5 + 1.5;
+
+                    confetti.style.width = `${size}px`;
+                    confetti.style.height = `${size}px`;
+                    confetti.style.left = `${left}px`;
+                    confetti.style.backgroundColor = `hsl(${hue}, 80%, 60%)`;
+                    confetti.style.animation = `fall ${duration}s ease-out forwards`;
+                    confetti.style.position = "fixed";
+                    confetti.style.top = "-10px";
+                    confetti.style.zIndex = 9999;
+
+                    setTimeout(() => confetti.remove(), duration * 1000);
+                }
+
+                contentHTML = `
+                    <h3>🎉 Trefil jsi to! 🎉</h3>
+                    <p>Správná odpověď byla <span class="correct-answer">${CORRECT_COUNTRY}</span>.</p>
+                    <br>
+                    <p>${CORRECT_EXPLANATION}</p>
+                    <button id="new-game-button-result" 
+                        onclick="window.initializeGame();">
+                        Nová hra
+                    </button>
+                `;
+            } else {
+                const isCorrectGuessed = guessList.some(g => g.country === CORRECT_COUNTRY && g.correct);
+                if (!isCorrectGuessed) drawGuessLine(CORRECT_COUNTRY, true);
+
+                contentHTML = `
+                    <h3>❌  Bohužel, dneska to nevyšlo...</h3>
+                    <p>Správná odpověď byla <span class="correct-answer">${CORRECT_COUNTRY}</span>.</p>
+                    <br>
+                    <p>${CORRECT_EXPLANATION}</p>
+                    <button id="new-game-button-result" 
+                        onclick="window.initializeGame();">
+                        Zkus znovu
+                    </button>
+                `;
+            }
+
+            resultBox.innerHTML = contentHTML;
+            resultBox.style.display = "block";
+        }
+
+
+        
+        function handleGuess() {
+            if (gameOver) return;
+
+            let guessedCountry = document.getElementById("country-input").value.trim();
+            if (!guessedCountry) return;
+
+            // ⭐️ NORMALIZACE
+            let normalized = countryNames.find(
+                c => c.toLowerCase() === guessedCountry.toLowerCase()
+            );
+
+            if (!normalized) {
+                normalized = countryNames.find(
+                    c => c.toLowerCase().startsWith(guessedCountry.toLowerCase())
+                );
+            }
+
+            if (normalized) guessedCountry = normalized;
+
+            // ⭐️ NAJDI ZEMI V DATECH
+            const countryMatch = ALL_DATA_JSON.find(
+                d => d.country.toLowerCase() === guessedCountry.toLowerCase()
+            );
+
+            if (!countryMatch) {
+                alert("Prosím zadej platnou zemi ze seznamu.");
+                return;
+            }
+
+            // ⭐️ DUPLICITA — TEPRVE TEĎ, když existuje countryMatch
+            if (guessList.some(g => g.country.toLowerCase() === countryMatch.country.toLowerCase())) {
+                alert("Tuto zemi jsi již hádal. Zkus jinou.");
+                return;
+            }
+
+            // 🔍 Vyhodnocení tipu
+            const isCorrect = countryMatch.country === CORRECT_COUNTRY;
+            guessesMade++;
+            guessList.push({ country: countryMatch.country, correct: isCorrect });
+
+            if (!isCorrect) {
+                drawGuessLine(countryMatch.country, false);
+            }
+
+            updateGuessList();
+
+            // 🎯 Výsledek
+            if (isCorrect) {
+                endGame(true);
+            } else if (guessesMade >= MAX_GUESSES) {
+                endGame(false);
+            } else {
+                d3.select("#guess-button").text(`Hádej ${guessesMade + 1}/${MAX_GUESSES}`);
+            }
+
+            // 🧹 Reset inputu
+            document.getElementById("country-input").value = "";
+
+            // Skryjeme našeptávač
+            d3.select("#custom-suggestions").style("display", "none");
+        }
+
+
+        // Nová funkce pro filtrování a zobrazení návrhů
+        function showSuggestions(inputValue) {
+            const suggestionsContainer = d3.select("#custom-suggestions");
+            suggestionsContainer.html(""); // Vyčistit staré návrhy
+            
+            // Zobrazíme, jen pokud je vstup delší než 0
+            if (inputValue.length === 0) {
+                suggestionsContainer.style("display", "none");
+                return;
+            }
+
+            const valueLower = inputValue.toLowerCase().trim();
+            
+            // 🎯 FILTR: Země, jejíž název ZAČÍNÁ na zadaný text
+            const filteredCountries = countryNames.filter(country => 
+                country.toLowerCase().startsWith(valueLower)
+            );
+            
+            if (filteredCountries.length === 0) {
+                suggestionsContainer.style("display", "none");
+                return;
+            }
+
+            // Vytvoření elementů pro návrhy
+            filteredCountries.forEach(country => {
+                const item = suggestionsContainer.append("div")
+                    .attr("class", "suggestion-item")
+                    .attr("data-country", country);
+                    
+                // Logika pro zvýraznění shody
+                const matchLength = inputValue.length;
+                const matchText = country.substring(0, matchLength);
+                const remainingText = country.substring(matchLength);
+                
+                item.html(`<span class="match">${matchText}</span>${remainingText}`);
+
+                // Kliknutí na návrh: vyplní input a skryje box
+                item.on("click", function() {
+                    const country = d3.select(this).attr("data-country");
+                    document.getElementById("country-input").value = country;
+                    suggestionsContainer.style("display", "none");
+                });
+            });
+
+            suggestionsContainer.style("display", "block");
+        }
+
+        // --- INICIALIZACE HRY ---
+        function initializeGame() {
+            guessesMade = 0;
+            gameOver = false;
+            guessList = [];
+            window.usedLabelPositions = [];
+            
+            // Reset prvků
+            d3.select("#result-box").style("display", "none").html(""); 
+            d3.select("#guess-button").attr("disabled", null).text(`Hádej 1/${MAX_GUESSES}`);
+            d3.select("#country-input").attr("disabled", null).property("value", ""); 
+            
+            // ❌ TOTO JE ODSTRANĚNO: d3.select("#country-select").attr("disabled", null).property("value", ""); 
+            // ❌ TENTO KÓD PRO NAPLNĚNÍ SELECTU JE NYNÍ ODSTRANĚN, PONECHÁVÁME JEN RESET SELECTU, POKUD JE POTŘEBA Z HTML:
+            /* const sortedCountries = countryNames.slice().sort((a, b) =>
+                a.localeCompare(b, "cs", { sensitivity: "base" })
+            );
+            const select = d3.select("#country-select");
+            select.selectAll("option:not([disabled])").remove();
+            sortedCountries.forEach(country => {
+                select.append("option").attr("value", country).text(country);
+            }); 
+            */
+            
+            d3.select("#guess-list").selectAll("*").remove(); 
+
+            drawChart();
+            
+            d3.select("#guess-button").on("click", handleGuess);
+            
+        // 🎯 LOGIKA PRO VLASTNÍ NAŠEPTVÁČ (NYNÍ PRO VŠECHNY VELIKOSTI)
+            const countryInput = document.getElementById("country-input");
+            const suggestionsBox = d3.select("#custom-suggestions");
+            
+            // 1. Odstranění starého list atributu
+            countryInput.removeAttribute("list"); 
+
+            // 2. Trvalý posluchač pro psaní (BEZ KONTROLY ŠÍŘKY)
+            countryInput.addEventListener("input", () => {
+                showSuggestions(countryInput.value);
+            });
+            
+            // 3. Posluchač pro zavření našeptávače po kliknutí mimo něj
+            document.addEventListener("click", function(event) {
+                const wrapper = document.querySelector(".autocomplete-wrapper");
+                if (wrapper && !wrapper.contains(event.target)) {
+                    suggestionsBox.style("display", "none");
+                }
+            });
+
+            d3.select("#country-input").on("keydown", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault(); 
+                    handleGuess();
+                    suggestionsBox.style("display", "none");
+                }
+            });
+        }
+        
+        // Zpřístupníme funkci initializeGame globálně, aby ji vidělo tlačítko "Nová hra"
+        window.initializeGame = initializeGame;
+        
+        window.addEventListener("load", () => {
+            requestAnimationFrame(() => {
+                initializeGame();      // 1. vykreslení
+                setTimeout(() => {
+                    drawChart();       // 2. korekční vykreslení
+                }, 200);
+            });
+        });
+
+    })();
+</script>
+</body>
+</html>
