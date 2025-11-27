@@ -780,6 +780,103 @@
     "data": [
       {
         "Rok": 2002,
+        "Hodnota": 3528.0
+      },
+      {
+        "Rok": 2003,
+        "Hodnota": 3519.0
+      },
+      {
+        "Rok": 2004,
+        "Hodnota": 3743.0
+      },
+      {
+        "Rok": 2005,
+        "Hodnota": 4000.0
+      },
+      {
+        "Rok": 2006,
+        "Hodnota": 4090.0
+      },
+      {
+        "Rok": 2007,
+        "Hodnota": 4248.0
+      },
+      {
+        "Rok": 2008,
+        "Hodnota": 4083.0
+      },
+      {
+        "Rok": 2009,
+        "Hodnota": 3323.0
+      },
+      {
+        "Rok": 2010,
+        "Hodnota": 3308.0
+      },
+      {
+        "Rok": 2011,
+        "Hodnota": 3375.0
+      },
+      {
+        "Rok": 2012,
+        "Hodnota": 3463.0
+      },
+      {
+        "Rok": 2013,
+        "Hodnota": 3320.0
+      },
+      {
+        "Rok": 2014,
+        "Hodnota": 3507.0
+      },
+      {
+        "Rok": 2015,
+        "Hodnota": 3666.0
+      },
+      {
+        "Rok": 2016,
+        "Hodnota": 3477.0
+      },
+      {
+        "Rok": 2017,
+        "Hodnota": 3834.0
+      },
+      {
+        "Rok": 2018,
+        "Hodnota": 3852.0
+      },
+      {
+        "Rok": 2019,
+        "Hodnota": 3726.0
+      },
+      {
+        "Rok": 2020,
+        "Hodnota": 3129.0
+      },
+      {
+        "Rok": 2021,
+        "Hodnota": 3373.0
+      },
+      {
+        "Rok": 2022,
+        "Hodnota": 3679.0
+      },
+      {
+        "Rok": 2023,
+        "Hodnota": 3346.0
+      },
+      {
+        "Rok": 2024,
+        "Hodnota": 3429.0
+      }
+    ]
+  },
+  {
+    "country": "Francie",
+    "data": [
+      {
+        "Rok": 2002,
         "Hodnota": 2856.0
       },
       {
@@ -2231,7 +2328,7 @@
     ]
   },
   {
-    "country": "Slovenso",
+    "country": "Slovensko",
     "data": [
       {
         "Rok": 2002,
@@ -2521,5 +2618,4 @@
       }
     ]
   }
-
 ]
