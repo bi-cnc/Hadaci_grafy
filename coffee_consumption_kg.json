@@ -1,0 +1,902 @@
+[
+    {
+        "country": "Albánie",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 3.95
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 2.92
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 2.75
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 3.45
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 3.56
+            }
+        ]
+    },
+    {
+        "country": "Belgie",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 6.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.39
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.66
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.74
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 6.3
+            }
+        ]
+    },
+    {
+        "country": "Bosna a Hercegovina",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.4
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 14.3
+            }
+        ]
+    },
+    {
+        "country": "Bulharsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.55
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.54
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.6
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.6
+            }
+        ]
+    },
+    {
+        "country": "Chorvatsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 8.69
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.58
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.12
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.79
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 9.16
+            }
+        ]
+    },
+    {
+        "country": "Dánsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 13.2
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 11.7
+            }
+        ]
+    },
+    {
+        "country": "Estonsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 16.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 17.5
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 15.7
+            }
+        ]
+    },
+    {
+        "country": "Finsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 16.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.8
+            }
+        ]
+    },
+    {
+        "country": "Francie",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 5.93
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.43
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.97
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.35
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 5.21
+            }
+        ]
+    },
+    {
+        "country": "Irsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.46
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.42
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 15.8
+            }
+        ]
+    },
+    {
+        "country": "Island",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 8.57
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.17
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.52
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 7.93
+            }
+        ]
+    },
+    {
+        "country": "Itálie",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 5.84
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.52
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.51
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 6.5
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 6.11
+            }
+        ]
+    },
+    {
+        "country": "Kypr",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 14.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.56
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 12.1
+            }
+        ]
+    },
+    {
+        "country": "Litva",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 15.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 17.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 13.4
+            }
+        ]
+    },
+    {
+        "country": "Lotyšsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.48
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 12.2
+            }
+        ]
+    },
+    {
+        "country": "Lucembursko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 23.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 18.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.2
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 19.0
+            }
+        ]
+    },
+    {
+        "country": "Malta",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 1.38
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.5
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 11.0
+            }
+        ]
+    },
+    {
+        "country": "Maďarsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 1.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 1.89
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 2.13
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 1.96
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 1.94
+            }
+        ]
+    },
+    {
+        "country": "Nizozemsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 6.48
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.86
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.06
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.11
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 3.99
+            }
+        ]
+    },
+    {
+        "country": "Norsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.9
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.6
+            }
+        ]
+    },
+    {
+        "country": "Německo",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 6.31
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 6.42
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.09
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.04
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 5.31
+            }
+        ]
+    },
+    {
+        "country": "Polsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 2.05
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 2.34
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 2.38
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 2.05
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 2.13
+            }
+        ]
+    },
+    {
+        "country": "Portugalsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 5.89
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 4.84
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.09
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.04
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 5.6
+            }
+        ]
+    },
+    {
+        "country": "Rakousko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.43
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.82
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.46
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 6.93
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 6.18
+            }
+        ]
+    },
+    {
+        "country": "Rumunsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 5.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.91
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.38
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.24
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 8.68
+            }
+        ]
+    },
+    {
+        "country": "Severní Makedonie",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 8.72
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.92
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.25
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.06
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.1
+            }
+        ]
+    },
+    {
+        "country": "Slovensko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.68
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.61
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.6
+            }
+        ]
+    },
+    {
+        "country": "Slovinsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.45
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.91
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.83
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.4
+            }
+        ]
+    },
+    {
+        "country": "Spojené království",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 3.52
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 4.43
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 2.91
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.68
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 4.99
+            }
+        ]
+    },
+    {
+        "country": "Srbsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 12.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 13.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 12.2
+            }
+        ]
+    },
+    {
+        "country": "Černá Hora",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.94
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.26
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.08
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 9.02
+            }
+        ]
+    },
+    {
+        "country": "Česko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 2.14
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 2.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 1.96
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 2.21
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 1.95
+            }
+        ]
+    },
+    {
+        "country": "Řecko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.91
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.01
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.76
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.43
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 9.96
+            }
+        ]
+    },
+    {
+        "country": "Španělsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 3.51
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 2.89
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 2.88
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 3.45
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 3.64
+            }
+        ]
+    },
+    {
+        "country": "Švédsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 13.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 10.9
+            }
+        ]
+    },
+    {
+        "country": "Švýcarsko",
+        "data": [
+            {
+                "Rok": 2019,
+                "Hodnota": 9.27
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 6.73
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.56
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.29
+            },
+            {
+                "Rok": 2023,
+                "Hodnota": 6.43
+            }
+        ]
+    }
+]
