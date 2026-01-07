@@ -1,0 +1,5108 @@
+[
+    {
+        "country": "Afghánistán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 39.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 30.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 23.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.7
+            }
+        ]
+    },
+    {
+        "country": "Albánie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 25.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 22.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 22.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 21.9
+            }
+        ]
+    },
+    {
+        "country": "Alžírsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 22.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 22.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 22.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 21.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 21.2
+            }
+        ]
+    },
+    {
+        "country": "Argentina",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 29.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 24.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 24.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 23.8
+            }
+        ]
+    },
+    {
+        "country": "Arménie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 32.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 30.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 27.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.9
+            }
+        ]
+    },
+    {
+        "country": "Austrálie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 24.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 20.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 15.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 13.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 13.1
+            }
+        ]
+    },
+    {
+        "country": "Bahamy",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 12.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 11.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 11.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.3
+            }
+        ]
+    },
+    {
+        "country": "Bahrajn",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 22.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 15.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 15.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 15.0
+            }
+        ]
+    },
+    {
+        "country": "Bangladéš",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 58.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 50.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 48.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 44.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 38.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 33.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 32.9
+            }
+        ]
+    },
+    {
+        "country": "Barbados",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 9.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 8.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 8.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 8.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 7.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 7.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.0
+            }
+        ]
+    },
+    {
+        "country": "Belgie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 29.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 29.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 27.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 27.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 26.7
+            }
+        ]
+    },
+    {
+        "country": "Belize",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 13.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 11.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 11.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.8
+            }
+        ]
+    },
+    {
+        "country": "Bhútán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 32.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 28.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 26.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 24.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 19.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 18.7
+            }
+        ]
+    },
+    {
+        "country": "Bosna a Hercegovina",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 47.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 43.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 42.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 41.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 38.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 36.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 36.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 36.2
+            }
+        ]
+    },
+    {
+        "country": "Botswana",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 19.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 18.7
+            }
+        ]
+    },
+    {
+        "country": "Brazílie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 23.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 19.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 17.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.2
+            }
+        ]
+    },
+    {
+        "country": "Bulharsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 47.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 44.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 44.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 43.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 41.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 40.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 39.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 39.5
+            }
+        ]
+    },
+    {
+        "country": "Burkina Faso",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 25.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 23.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 20.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 17.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 15.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.3
+            }
+        ]
+    },
+    {
+        "country": "Bělorusko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 42.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 39.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 38.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 36.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 33.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 31.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 30.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 30.1
+            }
+        ]
+    },
+    {
+        "country": "Chile",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 46.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 41.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 40.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 37.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 33.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 30.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 29.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 28.7
+            }
+        ]
+    },
+    {
+        "country": "Chorvatsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 35.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 35.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 35.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 36.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 36.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 36.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 37.0
+            }
+        ]
+    },
+    {
+        "country": "Dominikánská republika",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 18.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 16.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 15.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.5
+            }
+        ]
+    },
+    {
+        "country": "Dánsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 37.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 28.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 17.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 16.2
+            }
+        ]
+    },
+    {
+        "country": "Egypt",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 21.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 21.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 24.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 24.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.7
+            }
+        ]
+    },
+    {
+        "country": "Ekvádor",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 13.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 12.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 10.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.2
+            }
+        ]
+    },
+    {
+        "country": "Estonsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 47.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 42.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 40.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 37.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 29.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 28.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 28.3
+            }
+        ]
+    },
+    {
+        "country": "Eswatini",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 12.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 11.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 11.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 10.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.5
+            }
+        ]
+    },
+    {
+        "country": "Etiopie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 6.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 6.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 5.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 5.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 5.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.2
+            }
+        ]
+    },
+    {
+        "country": "Fidži",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 31.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 30.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 29.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 27.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 27.6
+            }
+        ]
+    },
+    {
+        "country": "Filipíny",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 36.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 27.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 20.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.4
+            }
+        ]
+    },
+    {
+        "country": "Finsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 38.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 30.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 22.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.3
+            }
+        ]
+    },
+    {
+        "country": "Francie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 34.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 34.6
+            }
+        ]
+    },
+    {
+        "country": "Gambie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 23.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 19.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 18.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 16.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 13.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.5
+            }
+        ]
+    },
+    {
+        "country": "Ghana",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 7.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 6.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 5.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 5.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 4.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 3.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 3.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 3.4
+            }
+        ]
+    },
+    {
+        "country": "Gruzie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 32.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 32.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 31.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 31.8
+            }
+        ]
+    },
+    {
+        "country": "Guatemala",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 13.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 13.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 13.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.9
+            }
+        ]
+    },
+    {
+        "country": "Guinea-Bissau",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 21.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 15.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 13.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.2
+            }
+        ]
+    },
+    {
+        "country": "Guyana",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 31.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 22.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 15.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.1
+            }
+        ]
+    },
+    {
+        "country": "Haiti",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 11.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 10.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 10.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 9.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 8.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.1
+            }
+        ]
+    },
+    {
+        "country": "Honduras",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 17.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 15.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 15.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 13.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.3
+            }
+        ]
+    },
+    {
+        "country": "Indie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 55.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 46.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 43.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 38.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 26.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.3
+            }
+        ]
+    },
+    {
+        "country": "Indonésie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 35.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 35.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 36.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 37.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 37.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 37.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 38.2
+            }
+        ]
+    },
+    {
+        "country": "Irsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 30.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 29.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 26.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.3
+            }
+        ]
+    },
+    {
+        "country": "Irák",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 22.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 20.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 20.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 19.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 19.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.2
+            }
+        ]
+    },
+    {
+        "country": "Island",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 32.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 21.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 13.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 10.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.4
+            }
+        ]
+    },
+    {
+        "country": "Itálie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 26.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 25.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 24.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 22.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.4
+            }
+        ]
+    },
+    {
+        "country": "Izrael",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 31.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 28.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 20.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.4
+            }
+        ]
+    },
+    {
+        "country": "Jamajka",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 17.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 14.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 13.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 10.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.7
+            }
+        ]
+    },
+    {
+        "country": "Japonsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.2
+            }
+        ]
+    },
+    {
+        "country": "Jemen",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 28.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 26.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 25.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 24.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 21.4
+            }
+        ]
+    },
+    {
+        "country": "Jihoafrická republika",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 22.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 22.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 20.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.7
+            }
+        ]
+    },
+    {
+        "country": "Jordánsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 33.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 34.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 35.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 35.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 35.6
+            }
+        ]
+    },
+    {
+        "country": "Kambodža",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 42.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 18.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 18.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 17.2
+            }
+        ]
+    },
+    {
+        "country": "Kamerun",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 15.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 10.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 8.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 6.5
+            }
+        ]
+    },
+    {
+        "country": "Kanada",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 28.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 23.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 21.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 19.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 15.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.0
+            }
+        ]
+    },
+    {
+        "country": "Katar",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 12.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 12.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.5
+            }
+        ]
+    },
+    {
+        "country": "Kazachstán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.2
+            }
+        ]
+    },
+    {
+        "country": "Keňa",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 19.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 16.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 15.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.7
+            }
+        ]
+    },
+    {
+        "country": "Kiribati",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 68.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 60.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 57.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 53.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 47.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 41.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 40.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 39.7
+            }
+        ]
+    },
+    {
+        "country": "Kolumbie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 15.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 13.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 12.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 11.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 9.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.2
+            }
+        ]
+    },
+    {
+        "country": "Komory",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 50.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 37.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 33.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 18.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 17.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 17.2
+            }
+        ]
+    },
+    {
+        "country": "Kongo",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 12.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 13.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 13.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 15.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 15.4
+            }
+        ]
+    },
+    {
+        "country": "Kostarika",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 17.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 14.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 12.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.9
+            }
+        ]
+    },
+    {
+        "country": "Kuba",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 39.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 27.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 18.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 18.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 17.4
+            }
+        ]
+    },
+    {
+        "country": "Kuvajt",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 21.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 20.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 20.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 19.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 19.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.9
+            }
+        ]
+    },
+    {
+        "country": "Kypr",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 42.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 40.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 39.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 38.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 37.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 35.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 35.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 35.6
+            }
+        ]
+    },
+    {
+        "country": "Kyrgyzstán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 29.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 29.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 27.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 27.3
+            }
+        ]
+    },
+    {
+        "country": "Lesotho",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 32.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 28.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 24.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.3
+            }
+        ]
+    },
+    {
+        "country": "Libanon",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 36.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 35.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 35.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 35.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 34.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 34.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 34.3
+            }
+        ]
+    },
+    {
+        "country": "Libérie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 17.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 14.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 13.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.2
+            }
+        ]
+    },
+    {
+        "country": "Litva",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 42.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 39.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 38.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 37.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 34.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 31.4
+            }
+        ]
+    },
+    {
+        "country": "Lotyšsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 45.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 42.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 41.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 39.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 37.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 34.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 33.9
+            }
+        ]
+    },
+    {
+        "country": "Lucembursko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 29.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 28.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 26.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 23.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 23.0
+            }
+        ]
+    },
+    {
+        "country": "Madagaskar",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 53.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 43.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 41.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 37.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 32.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 28.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 26.8
+            }
+        ]
+    },
+    {
+        "country": "Malajsie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 28.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 26.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 22.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 22.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.0
+            }
+        ]
+    },
+    {
+        "country": "Malawi",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 24.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 15.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 10.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 10.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.7
+            }
+        ]
+    },
+    {
+        "country": "Maledivy",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 42.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 37.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 36.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 33.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 26.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 26.3
+            }
+        ]
+    },
+    {
+        "country": "Malta",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 30.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.7
+            }
+        ]
+    },
+    {
+        "country": "Maroko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 20.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 18.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 16.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 13.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 13.0
+            }
+        ]
+    },
+    {
+        "country": "Marshallovy ostrovy",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 27.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 27.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 28.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 29.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 29.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 29.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 29.8
+            }
+        ]
+    },
+    {
+        "country": "Mauricius",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 25.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 23.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.9
+            }
+        ]
+    },
+    {
+        "country": "Mauritánie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 22.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 18.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 16.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 10.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.5
+            }
+        ]
+    },
+    {
+        "country": "Maďarsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 37.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 36.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 35.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 34.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 33.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 32.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 32.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 32.2
+            }
+        ]
+    },
+    {
+        "country": "Mexiko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 20.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 19.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 17.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 15.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 15.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.9
+            }
+        ]
+    },
+    {
+        "country": "Mongolsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 31.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 30.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 30.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 29.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 29.5
+            }
+        ]
+    },
+    {
+        "country": "Myanmar",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 65.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 60.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 58.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 54.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 50.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 45.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 45.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 44.4
+            }
+        ]
+    },
+    {
+        "country": "Namibie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 26.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 22.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 16.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.1
+            }
+        ]
+    },
+    {
+        "country": "Nauru",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 63.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 59.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 57.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 55.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 52.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 49.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 48.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 48.3
+            }
+        ]
+    },
+    {
+        "country": "Nepál",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 64.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 54.5
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 49.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 44.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 36.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 28.3
+            }
+        ]
+    },
+    {
+        "country": "Niger",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 9.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 9.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 8.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 8.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 8.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 7.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.7
+            }
+        ]
+    },
+    {
+        "country": "Nigérie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 10.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 8.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 7.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 6.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 4.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 3.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 3.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 3.3
+            }
+        ]
+    },
+    {
+        "country": "Nizozemsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 30.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 29.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 27.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 22.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 21.3
+            }
+        ]
+    },
+    {
+        "country": "Norsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 44.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 31.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 26.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 20.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 15.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 15.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.2
+            }
+        ]
+    },
+    {
+        "country": "Nový Zéland",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 20.1
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 16.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 13.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 12.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.2
+            }
+        ]
+    },
+    {
+        "country": "Německo",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 36.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 30.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 25.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 22.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 21.3
+            }
+        ]
+    },
+    {
+        "country": "Omán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 7.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 7.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 7.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 7.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 8.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 8.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.4
+            }
+        ]
+    },
+    {
+        "country": "Panama",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 11.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 10.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 8.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 7.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 5.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.2
+            }
+        ]
+    },
+    {
+        "country": "Papua-Nová Guinea",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 53.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 50.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 48.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 46.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 43.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 40.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 40.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 39.6
+            }
+        ]
+    },
+    {
+        "country": "Paraguay",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 29.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 23.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 21.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 14.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 10.7
+            }
+        ]
+    },
+    {
+        "country": "Peru",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 20.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 16.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 7.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.1
+            }
+        ]
+    },
+    {
+        "country": "Polsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 38.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 33.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 30.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 27.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 24.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 24.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 23.6
+            }
+        ]
+    },
+    {
+        "country": "Portugalsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 26.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 25.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 25.6
+            }
+        ]
+    },
+    {
+        "country": "Pákistán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 39.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 33.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 31.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 18.9
+            }
+        ]
+    },
+    {
+        "country": "Rakousko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 52.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 44.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 41.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 37.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 26.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.9
+            }
+        ]
+    },
+    {
+        "country": "Rumunsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 36.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 35.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 34.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 33.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 32.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 30.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 30.0
+            }
+        ]
+    },
+    {
+        "country": "Rwanda",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 20.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 18.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 16.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.3
+            }
+        ]
+    },
+    {
+        "country": "Salvador",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 15.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 13.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 12.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 11.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 10.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 8.9
+            }
+        ]
+    },
+    {
+        "country": "Samoa",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 41.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 36.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 34.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 31.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 27.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 23.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.5
+            }
+        ]
+    },
+    {
+        "country": "Saúdská Arábie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 14.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.9
+            }
+        ]
+    },
+    {
+        "country": "Senegal",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 12.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 11.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 10.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 8.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.0
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 6.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 6.5
+            }
+        ]
+    },
+    {
+        "country": "Seychely",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 30.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 27.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 26.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 24.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 20.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.2
+            }
+        ]
+    },
+    {
+        "country": "Sierra Leone",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 40.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 28.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 23.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 18.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 13.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 12.9
+            }
+        ]
+    },
+    {
+        "country": "Slovensko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 32.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 31.9
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 32.4
+            }
+        ]
+    },
+    {
+        "country": "Slovinsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 23.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 20.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.1
+            }
+        ]
+    },
+    {
+        "country": "Spojené arabské emiráty",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 19.1
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 15.9
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 13.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.2
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 9.6
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 9.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 9.0
+            }
+        ]
+    },
+    {
+        "country": "Srbsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 44.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 43.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 43.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 42.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 41.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 40.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 39.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 39.5
+            }
+        ]
+    },
+    {
+        "country": "Svatá Lucie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 20.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 18.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 16.8
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 15.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 13.8
+            }
+        ]
+    },
+    {
+        "country": "Svatý Tomáš a Princův ostrov",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 7.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 7.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 7.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 7.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 7.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 7.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 7.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.8
+            }
+        ]
+    },
+    {
+        "country": "Thajsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 26.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 23.5
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 22.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 21.1
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 19.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.2
+            }
+        ]
+    },
+    {
+        "country": "Tonga",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 32.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 31.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 31.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 31.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 31.3
+            }
+        ]
+    },
+    {
+        "country": "Tunisko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 29.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 27.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 26.4
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 23.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.5
+            }
+        ]
+    },
+    {
+        "country": "Turkmenistán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 11.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 10.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 9.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 7.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 6.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 5.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 5.6
+            }
+        ]
+    },
+    {
+        "country": "Tuvalu",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 48.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 44.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 43.0
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 40.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 37.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 34.2
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 33.7
+            }
+        ]
+    },
+    {
+        "country": "Uganda",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 25.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 19.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 14.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 11.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 8.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 7.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 7.5
+            }
+        ]
+    },
+    {
+        "country": "Ukrajina",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 38.2
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 34.8
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 31.3
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 28.5
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.5
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 24.9
+            }
+        ]
+    },
+    {
+        "country": "Uruguay",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 31.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 29.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 27.6
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 21.5
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 21.0
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 20.5
+            }
+        ]
+    },
+    {
+        "country": "Uzbekistán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 27.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 24.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 23.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 21.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 19.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 17.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 17.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 16.7
+            }
+        ]
+    },
+    {
+        "country": "Zambie",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 19.7
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 18.2
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 17.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 15.8
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 14.8
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 14.6
+            }
+        ]
+    },
+    {
+        "country": "Zimbabwe",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 21.4
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 18.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 17.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 15.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 13.6
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 11.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 11.6
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 11.3
+            }
+        ]
+    },
+    {
+        "country": "Ázerbájdžán",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 28.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 26.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 25.2
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 24.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 22.0
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 20.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 19.9
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 19.6
+            }
+        ]
+    },
+    {
+        "country": "Černá Hora",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 38.6
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 36.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 36.1
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 35.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 33.7
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 32.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 32.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 32.0
+            }
+        ]
+    },
+    {
+        "country": "Česko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 34.9
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 33.7
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 32.5
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 31.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 30.4
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 29.9
+            }
+        ]
+    },
+    {
+        "country": "Čína",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 27.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 26.0
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 25.6
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 25.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 24.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 23.7
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 23.4
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 23.4
+            }
+        ]
+    },
+    {
+        "country": "Řecko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 55.8
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 49.1
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 46.7
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 43.2
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 38.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 34.2
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 32.8
+            }
+        ]
+    },
+    {
+        "country": "Šalamounovy ostrovy",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 43.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 41.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 40.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 40.0
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 38.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 37.3
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 37.1
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 36.9
+            }
+        ]
+    },
+    {
+        "country": "Španělsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 35.0
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 33.3
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 32.8
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 31.7
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 30.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 28.9
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 28.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 28.4
+            }
+        ]
+    },
+    {
+        "country": "Švédsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 46.5
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 39.4
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 36.9
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 33.4
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 28.3
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 24.1
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 23.3
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 22.7
+            }
+        ]
+    },
+    {
+        "country": "Švýcarsko",
+        "data": [
+            {
+                "Rok": 2000,
+                "Hodnota": 28.3
+            },
+            {
+                "Rok": 2005,
+                "Hodnota": 27.6
+            },
+            {
+                "Rok": 2007,
+                "Hodnota": 27.3
+            },
+            {
+                "Rok": 2010,
+                "Hodnota": 26.9
+            },
+            {
+                "Rok": 2015,
+                "Hodnota": 26.4
+            },
+            {
+                "Rok": 2020,
+                "Hodnota": 25.8
+            },
+            {
+                "Rok": 2021,
+                "Hodnota": 25.7
+            },
+            {
+                "Rok": 2022,
+                "Hodnota": 25.5
+            }
+        ]
+    }
+]
