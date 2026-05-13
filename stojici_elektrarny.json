@@ -1,0 +1,536 @@
+[
+  {
+    "lat": 51.00213,
+    "lon": 14.99403,
+    "nazev": "Andělka I.",
+    "vykon": "12 300 kW"
+  },
+  {
+    "lat": 51.00213,
+    "lon": 14.99403,
+    "nazev": "Andělka II.",
+    "vykon": "2 050 kW"
+  },
+  {
+    "lat": 49.84926,
+    "lon": 16.53991,
+    "nazev": "Anenská Studánka",
+    "vykon": "500 kW"
+  },
+  {
+    "lat": 49.84926,
+    "lon": 16.53991,
+    "nazev": "Anenská Studánka II",
+    "vykon": "5 000 kW"
+  },
+  {
+    "lat": 48.88309,
+    "lon": 16.18239,
+    "nazev": "Bantice",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.78241,
+    "lon": 12.78607,
+    "nazev": "Bor – Damnov",
+    "vykon": "4 520 kW"
+  },
+  {
+    "lat": 50.40973,
+    "lon": 12.92445,
+    "nazev": "Boží Dar II – Neklid",
+    "vykon": "660 kW"
+  },
+  {
+    "lat": 50.40973,
+    "lon": 12.92445,
+    "nazev": "Boží Dar III",
+    "vykon": "800 kW"
+  },
+  {
+    "lat": 49.55549,
+    "lon": 16.83497,
+    "nazev": "Brodek u Konice",
+    "vykon": "1 200 kW"
+  },
+  {
+    "lat": 48.86992,
+    "lon": 16.34175,
+    "nazev": "Břežany",
+    "vykon": "4 250 kW"
+  },
+  {
+    "lat": 49.5245,
+    "lon": 13.70386,
+    "nazev": "Dožice",
+    "vykon": "800 kW"
+  },
+  {
+    "lat": 49.43326,
+    "lon": 16.89738,
+    "nazev": "Drahany",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.24376,
+    "lon": 17.63408,
+    "nazev": "Dívčí Hrad",
+    "vykon": "4 400 kW"
+  },
+  {
+    "lat": 50.88863,
+    "lon": 15.04187,
+    "nazev": "Dětřichov u Frýdlantu",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.77166,
+    "lon": 16.76472,
+    "nazev": "Gruna – Žipotín I.",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 49.77166,
+    "lon": 16.76472,
+    "nazev": "Gruna – Žipotín II",
+    "vykon": "1 200 kW"
+  },
+  {
+    "lat": 49.77166,
+    "lon": 16.76472,
+    "nazev": "Gruna – Žipotín III",
+    "vykon": "4 260 kW"
+  },
+  {
+    "lat": 50.72228,
+    "lon": 13.88023,
+    "nazev": "Habartice u Krupky",
+    "vykon": "4 100 kW"
+  },
+  {
+    "lat": 49.94644,
+    "lon": 18.23931,
+    "nazev": "Hať I.",
+    "vykon": "1 800 kW"
+  },
+  {
+    "lat": 49.94644,
+    "lon": 18.23931,
+    "nazev": "Hať II",
+    "vykon": "2 200 kW"
+  },
+  {
+    "lat": 49.94644,
+    "lon": 18.23931,
+    "nazev": "Hať III.",
+    "vykon": "4200 kW"
+  },
+  {
+    "lat": 50.5106,
+    "lon": 13.25161,
+    "nazev": "Hora Svatého Šebestiána",
+    "vykon": "4 500 kW"
+  },
+  {
+    "lat": 49.75582,
+    "lon": 17.34674,
+    "nazev": "Horní Loděnice – Lipina",
+    "vykon": "18 000 kW"
+  },
+  {
+    "lat": 50.21966,
+    "lon": 12.2719,
+    "nazev": "Horní Paseky",
+    "vykon": "10 000 kW"
+  },
+  {
+    "lat": 50.18049,
+    "lon": 12.50899,
+    "nazev": "Horní Částkov I.",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 50.18049,
+    "lon": 12.50899,
+    "nazev": "Horní Částkov II",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 50.96546,
+    "lon": 15.20149,
+    "nazev": "Horní Řasnice",
+    "vykon": "1 800 kW"
+  },
+  {
+    "lat": 49.38009,
+    "lon": 17.70173,
+    "nazev": "Hostýn",
+    "vykon": "225 kW"
+  },
+  {
+    "lat": 50.30163,
+    "lon": 12.17637,
+    "nazev": "Hranice u Aše",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 49.73905,
+    "lon": 17.40188,
+    "nazev": "Hraničné Petrovice I",
+    "vykon": "850 kW"
+  },
+  {
+    "lat": 49.73905,
+    "lon": 17.40188,
+    "nazev": "Hraničné Petrovice II",
+    "vykon": "850 kW"
+  },
+  {
+    "lat": 49.84085,
+    "lon": 16.38383,
+    "nazev": "Janov",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 50.28265,
+    "lon": 12.6023,
+    "nazev": "Jindřichovice II",
+    "vykon": "15 820 kW"
+  },
+  {
+    "lat": 50.96081,
+    "lon": 15.24953,
+    "nazev": "Jindřichovice pod Smrkem",
+    "vykon": "1 200 kW"
+  },
+  {
+    "lat": 50.27679,
+    "lon": 12.62131,
+    "nazev": "Jindřichovice – Stará",
+    "vykon": "9 200 kW"
+  },
+  {
+    "lat": 49.70883,
+    "lon": 17.39326,
+    "nazev": "Jívová",
+    "vykon": "11 000 kW"
+  },
+  {
+    "lat": 50.63492,
+    "lon": 13.55716,
+    "nazev": "Klíny",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.34235,
+    "lon": 17.12383,
+    "nazev": "Kobylá nad Vidnávkou",
+    "vykon": "2 200 kW"
+  },
+  {
+    "lat": 50.04638,
+    "lon": 16.94676,
+    "nazev": "Kopřivná",
+    "vykon": "4 600 kW"
+  },
+  {
+    "lat": 50.48588,
+    "lon": 13.10764,
+    "nazev": "Kryštofovy Hamry – Přísečnice",
+    "vykon": "42 000 kW"
+  },
+  {
+    "lat": 50.94022,
+    "lon": 15.12756,
+    "nazev": "Krásný Les",
+    "vykon": "1 500 kW"
+  },
+  {
+    "lat": 49.42329,
+    "lon": 15.01586,
+    "nazev": "Kámen",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.66675,
+    "lon": 17.69196,
+    "nazev": "Lipná",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.64861,
+    "lon": 13.61034,
+    "nazev": "Loučná",
+    "vykon": "1 800 kW"
+  },
+  {
+    "lat": 49.79887,
+    "lon": 16.78284,
+    "nazev": "Maletín I.",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.79887,
+    "lon": 16.78284,
+    "nazev": "Maletín II.",
+    "vykon": "6600 kW"
+  },
+  {
+    "lat": 49.84993,
+    "lon": 17.7578,
+    "nazev": "Melč",
+    "vykon": "4 400 kW"
+  },
+  {
+    "lat": 49.92193,
+    "lon": 17.08416,
+    "nazev": "Mladoňov",
+    "vykon": "500 kW"
+  },
+  {
+    "lat": 50.25386,
+    "lon": 12.10618,
+    "nazev": "Mlýnský vrch, Krásná u Aše I.",
+    "vykon": "8 000 kW"
+  },
+  {
+    "lat": 50.25386,
+    "lon": 12.10618,
+    "nazev": "Mlýnský vrch, Krásná u Aše II.",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.6382,
+    "lon": 13.55141,
+    "nazev": "Mníšek, Klíny",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.84029,
+    "lon": 17.83148,
+    "nazev": "Moravice – Melč",
+    "vykon": "9 040 kW"
+  },
+  {
+    "lat": 50.07166,
+    "lon": 17.14527,
+    "nazev": "Mravenečník",
+    "vykon": "440 kW"
+  },
+  {
+    "lat": 50.59465,
+    "lon": 13.48251,
+    "nazev": "Nová Ves v Horách I",
+    "vykon": "1 500 kW"
+  },
+  {
+    "lat": 50.59465,
+    "lon": 13.48251,
+    "nazev": "Nová Ves v Horách II",
+    "vykon": "1 500 kW"
+  },
+  {
+    "lat": 50.68336,
+    "lon": 13.69535,
+    "nazev": "Nové Město – Vrch Tří pánů",
+    "vykon": "6 000 kW"
+  },
+  {
+    "lat": 50.00389,
+    "lon": 17.96139,
+    "nazev": "Oldřišov u Opavy",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.25714,
+    "lon": 12.44033,
+    "nazev": "Opatov u Lubů",
+    "vykon": "1 500 kW"
+  },
+  {
+    "lat": 50.18495,
+    "lon": 17.05168,
+    "nazev": "Ostružná",
+    "vykon": "3 000 kW"
+  },
+  {
+    "lat": 49.75558,
+    "lon": 16.39171,
+    "nazev": "Ostrý Kámen",
+    "vykon": "3 750 kW"
+  },
+  {
+    "lat": 49.4507,
+    "lon": 15.90706,
+    "nazev": "Pavlov I.",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 49.4507,
+    "lon": 15.90706,
+    "nazev": "Pavlov II",
+    "vykon": "1 700 kW"
+  },
+  {
+    "lat": 50.19378,
+    "lon": 14.11782,
+    "nazev": "Pchery",
+    "vykon": "6 000 kW"
+  },
+  {
+    "lat": 50.78902,
+    "lon": 13.97614,
+    "nazev": "Petrovice",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 49.70391,
+    "lon": 16.54831,
+    "nazev": "Pohledy u Svitav",
+    "vykon": "750 kW"
+  },
+  {
+    "lat": 49.6372,
+    "lon": 17.6517,
+    "nazev": "Potštát",
+    "vykon": "600 kW"
+  },
+  {
+    "lat": 49.48351,
+    "lon": 16.83594,
+    "nazev": "Protivanov I.",
+    "vykon": "100 kW"
+  },
+  {
+    "lat": 49.48351,
+    "lon": 16.83594,
+    "nazev": "Protivanov II",
+    "vykon": "3 000 kW"
+  },
+  {
+    "lat": 49.3977,
+    "lon": 16.84035,
+    "nazev": "Rozstání",
+    "vykon": "1 800 kW"
+  },
+  {
+    "lat": 50.44800,
+    "lon": 13.16472,
+    "nazev": "Rusová – Podmíleská výšina",
+    "vykon": "7 500 kW"
+  },
+  {
+    "lat": 49.78780,
+    "lon": 17.51894,
+    "nazev": "Stará Libavá-Rejchartice (Norberčany)",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.59562,
+    "lon": 13.49356,
+    "nazev": "Strážný Vrch v Nové Vsi v Horách",
+    "vykon": "8 200 kW"
+  },
+  {
+    "lat": 50.30539,
+    "lon": 12.13781,
+    "nazev": "Trojmezí A",
+    "vykon": "1 200 kW"
+  },
+  {
+    "lat": 50.30539,
+    "lon": 12.13781,
+    "nazev": "Trojmezí B",
+    "vykon": "1 500 kW"
+  },
+  {
+    "lat": 49.039,
+    "lon": 16.21652,
+    "nazev": "Tulešice",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.36308,
+    "lon": 17.14638,
+    "nazev": "Velká Kraš",
+    "vykon": "225 kW"
+  },
+  {
+    "lat": 49.63707,
+    "lon": 17.80493,
+    "nazev": "Veselí u Oder",
+    "vykon": "4 000 kW"
+  },
+  {
+    "lat": 50.14414,
+    "lon": 13.22575,
+    "nazev": "Vrbice I.",
+    "vykon": "4 600 kW"
+  },
+  {
+    "lat": 50.14414,
+    "lon": 13.22575,
+    "nazev": "Vrbice II",
+    "vykon": "2350 kW"
+  },
+  {
+    "lat": 50.85774,
+    "lon": 14.90698,
+    "nazev": "Václavice",
+    "vykon": "26 100 kW"
+  },
+  {
+    "lat": 50.86727,
+    "lon": 15.00103,
+    "nazev": "Vítkov (Lysý Vrch u Albrechtic)",
+    "vykon": "3 100 kW"
+  },
+  {
+    "lat": 50.50276,
+    "lon": 15.79887,
+    "nazev": "Vítězná u Dvora Králové",
+    "vykon": "3 000 kW"
+  },
+  {
+    "lat": 49.40414,
+    "lon": 15.75929,
+    "nazev": "Věžnice",
+    "vykon": "4 100 kW"
+  },
+  {
+    "lat": 50.61893,
+    "lon": 15.97397,
+    "nazev": "Zlatá Olešnice I",
+    "vykon": "3 000 kW"
+  },
+  {
+    "lat": 50.61441,
+    "lon": 15.96718,
+    "nazev": "Zlatá Olešnice II",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 50.62820,
+    "lon": 15.96343,
+    "nazev": "Zlatá Olešnice III",
+    "vykon": "2 000 kW"
+  },
+  {
+    "lat": 49.79692,
+    "lon": 17.52066,
+    "nazev": "Červený kopec – Rejchartice",
+    "vykon": "13 800 kW"
+  },
+  {
+    "lat": 50.217,
+    "lon": 12.45735,
+    "nazev": "Čižebná – Nový Kostel I",
+    "vykon": "315 kW"
+  },
+  {
+    "lat": 50.217,
+    "lon": 12.45735,
+    "nazev": "Čižebná – Nový Kostel II",
+    "vykon": "1 500 kW"
+  }
+]
