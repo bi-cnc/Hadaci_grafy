@@ -2,14 +2,8 @@
   {
     "lat": 50.99125202508231,
     "lon": 14.983515467241032,
-    "nazev": "Andělka I.",
-    "vykon": "12 300 kW"
-  },
-  {
-    "lat": 50.99125202508231,
-    "lon": 14.983515467241032,
-    "nazev": "Andělka II.",
-    "vykon": "2 050 kW"
+    "nazev": "Andělka I a II",
+    "vykon": "14 350 kW"
   },
   {
     "lat": 49.84328388287262,
@@ -176,14 +170,8 @@
   {
     "lat": 49.72974017236759,
     "lon": 17.402918028310054,
-    "nazev": "Hraničné Petrovice I",
-    "vykon": "850 kW"
-  },
-  {
-    "lat": 49.72974017236759,
-    "lon": 17.402918028310054,
-    "nazev": "Hraničné Petrovice II",
-    "vykon": "850 kW"
+    "nazev": "Hraničné Petrovice I a II",
+    "vykon": "1 700 kW"
   },
   {
     "lat": 49.833854581489284,
@@ -320,14 +308,8 @@
   {
     "lat": 50.08557826974448,
     "lon": 17.144469930648274,
-    "nazev": "Nová Ves v Horách I",
-    "vykon": "1 500 kW"
-  },
-  {
-    "lat": 50.59585650701969,
-    "lon": 13.495000077533264,
-    "nazev": "Nová Ves v Horách II",
-    "vykon": "1 500 kW"
+    "nazev": "Nová Ves v Horách I a II",
+    "vykon": "3 000 kW"
   },
   {
     "lat": 50.68135503776068,
@@ -360,16 +342,10 @@
     "vykon": "3 750 kW"
   },
   {
-    "lat": 49.25062670766949,
-    "lon": 15.549598633449897,
-    "nazev": "Pavlov I.",
-    "vykon": "4 000 kW"
-  },
-  {
-    "lat": 49.249777082443735,
-    "lon": 15.550613436180381,
-    "nazev": "Pavlov II",
-    "vykon": "1 700 kW"
+    "lat": 49.250607446770225,
+    "lon": 15.549591797693187,
+    "nazev": "Pavlov I a II",
+    "vykon": "5 700 kW"
   },
   {
     "lat": 50.196379669584104,
